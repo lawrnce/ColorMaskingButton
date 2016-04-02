@@ -38,6 +38,10 @@ class ViewController: UIViewController {
     }
     
     // Setup each example
+    
+    //
+    //
+    //
     private func setupLeftToRight() {
         reset()
         self.label.text = "Left to Right"
@@ -58,22 +62,73 @@ class ViewController: UIViewController {
         self.view.addSubview(self.exampleButton)
     }
     
+    //
+    //
+    //
     private func setupRightToLeft() {
         reset()
         self.label.text = "Right to Left"
-        self.slider.setValue(0.0, animated: false)
+        self.slider.setValue(1.0, animated: false)
+        
+        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
+        
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .RightToLeft, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton.center = self.view.center
+        self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
+        
+        self.exampleView = UIView(frame: CGRect(x: UIScreen.mainScreen().bounds.width,
+            y: UIScreen.mainScreen().bounds.height / 4.0,
+            width: UIScreen.mainScreen().bounds.width, height: UIScreen.mainScreen().bounds.height / 2.0))
+        self.exampleView.backgroundColor = UIColor.blackColor()
+        
+        self.view.addSubview(self.exampleView)
+        self.view.addSubview(self.exampleButton)
     }
     
+    //
+    //
+    //
     private func setupTopToBottom() {
         reset()
         self.label.text = "Top to Bottom"
         self.slider.setValue(0.0, animated: false)
+        
+        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
+        
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .TopToBottom, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton.center = self.view.center
+        self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
+        
+        self.exampleView = UIView(frame: CGRect(x: 0,
+            y: UIScreen.mainScreen().bounds.height / 4.0,
+            width: UIScreen.mainScreen().bounds.width, height: 0.0))
+        self.exampleView.backgroundColor = UIColor.blackColor()
+        
+        self.view.addSubview(self.exampleView)
+        self.view.addSubview(self.exampleButton)
     }
     
+    //
+    //
+    //
     private func setupBottomToTop() {
         reset()
         self.label.text = "Bottom to Top"
-        self.slider.setValue(0.0, animated: false)
+        self.slider.setValue(1.0, animated: false)
+        
+        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
+        
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .BottomToTop, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton.center = self.view.center
+        self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
+        
+        self.exampleView = UIView(frame: CGRect(x: 0,
+            y: UIScreen.mainScreen().bounds.height * 0.75,
+            width: UIScreen.mainScreen().bounds.width, height: 0.0))
+        self.exampleView.backgroundColor = UIColor.blackColor()
+        
+        self.view.addSubview(self.exampleView)
+        self.view.addSubview(self.exampleButton)
     }
     
     private func reset() {
@@ -120,22 +175,16 @@ class ViewController: UIViewController {
             self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
             
         case .RightToLeft:
-            break
-//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-//            self.exampleButton.updateColorOffest(offset)
+            self.exampleView.frame.origin.x = UIScreen.mainScreen().bounds.width * value
             
         case .TopToBottom:
-            break
-//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-//            self.exampleButton.updateColorOffest(offset)
+            self.exampleView.frame.size.height = UIScreen.mainScreen().bounds.height * 0.5 * value
             
         case .BottomToTop:
-            break
-//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-//            self.exampleButton.updateColorOffest(offset)
+            self.exampleView.frame.origin.y = UIScreen.mainScreen().bounds.height * (0.5 * value + 0.25)
+            self.exampleView.frame.size.height = UIScreen.mainScreen().bounds.height / 2.0 * (1.0 - value)
+            
+            print(self.exampleView.frame.origin.y, self.exampleView.frame.size.height)
         }
         
          self.exampleButton.updateColorOffset(self.exampleView.frame)
