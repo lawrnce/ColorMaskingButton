@@ -14,14 +14,14 @@
 Color Masking Button takes a CGPath as its mask. You can create a CGPath from a SVG file with [PocketSVG](https://github.com/arielelkin/PocketSVG).
 
 ```swift
-    let myPath = PocketSVG.pathFromSVGFileNamed("mySVGFile").takeUnretainedValue()
+let myPath = PocketSVG.pathFromSVGFileNamed("mySVGFile").takeUnretainedValue()
 ```
 
 Color Masking Button adjusts its frame to the size of the mask's path. To create different sized buttons, initiate with different sized paths.
 
 ```swift
-    // Set the origin of the frame, and Color Masking Button will adjust its frame
-    let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath, withDirection: .LeftToRight, withForegroundColor: color1, withBackgroundColor: color2)
+// Set the origin of the frame, and Color Masking Button will adjust its frame
+let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath, withDirection: .LeftToRight, withForegroundColor: color1, withBackgroundColor: color2)
 ```
 
 ## Documentation
