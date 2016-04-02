@@ -97,8 +97,6 @@ class MaskedView: UIView {
             let targetOffset = targetFrame.origin.y + targetFrame.height
             let normalizedOffset = targetOffset - self.superview!.frame.origin.y
             
-            print("Target offset ", targetOffset, "Super offset ", self.superview!.frame.origin.y, "Normal ", normalizedOffset)
-            
             if normalizedOffset >= 0 && normalizedOffset <= self.frame.height {
                 self.animatedView.frame.origin.y = normalizedOffset
                 setNeedsLayout()
@@ -109,24 +107,21 @@ class MaskedView: UIView {
             }
             
         case .BottomToTop:
-            let targetOffset = targetFrame.origin.x + targetFrame.width
-            let normalizedOffset = targetOffset - self.superview!.frame.origin.x
+            let targetOffset = targetFrame.origin.y
+            let superviewFrameOffset = self.superview!.frame.origin.y + self.superview!.frame.height
+            let normalizedOffset = superviewFrameOffset - targetOffset
             
-            if normalizedOffset >= 0 && normalizedOffset <= self.frame.width {
-                self.animatedView.frame.origin.x = normalizedOffset
+            if normalizedOffset >= 0 && normalizedOffset <= self.frame.height {
+                self.animatedView.frame.origin.y = -normalizedOffset
                 setNeedsLayout()
             } else if normalizedOffset < 0 {
-                self.animatedView.frame.origin.x = 0.0
-            } else if normalizedOffset > self.frame.width {
-                self.animatedView.frame.origin.x = self.frame.width
+                self.animatedView.frame.origin.y = 0.0
+            } else if normalizedOffset > self.frame.height {
+                self.animatedView.frame.origin.y = -self.frame.height
             }
         }
     }
 }
-
-
-
-
 
 
 
