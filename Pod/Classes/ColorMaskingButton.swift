@@ -17,6 +17,11 @@ public class ColorMaskingButton: UIButton {
     //
     public var increment: CGFloat!
     
+    //  The direction of the color mask. (read-only)
+    //
+    //
+    public private(set) var direction: MaskingDirection!
+    
     // MARK: - PUBLIC METHODS
     
     //  Basic instantiation with a CGPath of the mask. Foreground color denotes the initial color inside the mask.
@@ -24,6 +29,7 @@ public class ColorMaskingButton: UIButton {
     //  only effect the origin of the button.
     convenience public init(frame: CGRect, withPath path: CGPath, withDirection direction: MaskingDirection, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor) {
         self.init(frame: frame)
+        self.direction = direction
         self.maskedView = MaskedView(path: path, withDirection: direction)
         self.maskedView.backgroundColor = backgroundColor
         self.maskedView.animatedView.backgroundColor = foregroundColor

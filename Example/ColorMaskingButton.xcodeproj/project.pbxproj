@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		778E937E5E0686FEED5B918D /* Pods_ColorMaskingButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C228C7FB25A1F00F67CA9F /* Pods_ColorMaskingButton_Example.framework */; };
+		E6E2B12E1CAF9E36004F9C05 /* Close.svg in Resources */ = {isa = PBXBuildFile; fileRef = E6E2B12C1CAF9E36004F9C05 /* Close.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C69C9030CABD1FBE443832C8 /* Pods-ColorMaskingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CAE9230131E1314DACBA0087 /* Pods-ColorMaskingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CFAD08411AD2B7051969E191 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6E2B12C1CAF9E36004F9C05 /* Close.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Close.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				E6E2B12C1CAF9E36004F9C05 /* Close.svg */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -249,6 +252,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				E6E2B12E1CAF9E36004F9C05 /* Close.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import PocketSVG
+import ColorMaskingButton
 
 class ViewController: UIViewController {
 
@@ -14,11 +16,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var slider: UISlider!
     
+    private var exampleButton: ColorMaskingButton!
+    private var exampleView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-//         let path = PocketSVG.pathFromSVGFileNamed(SVGname).takeUnretainedValue()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -37,23 +39,53 @@ class ViewController: UIViewController {
     
     // Setup each example
     private func setupLeftToRight() {
+        reset()
         self.label.text = "Left to Right"
         self.slider.setValue(0.0, animated: false)
+        
+        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
+        
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .LeftToRight, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton.frame.origin = self.view.center
+        
+        self.exampleView = UIView(frame: CGRect(x: 0,
+            y: UIScreen.mainScreen().bounds.height / 4.0,
+            width: 0.0, height: UIScreen.mainScreen().bounds.height / 2.0))
+        self.exampleView.backgroundColor = UIColor.blackColor()
+        
+        self.view.addSubview(self.exampleView)
+        self.view.addSubview(self.exampleButton)
     }
     
     private func setupRightToLeft() {
+        reset()
         self.label.text = "Right to Left"
         self.slider.setValue(0.0, animated: false)
     }
     
     private func setupTopToBottom() {
+        reset()
         self.label.text = "Top to Bottom"
         self.slider.setValue(0.0, animated: false)
     }
     
     private func setupBottomToTop() {
+        reset()
         self.label.text = "Bottom to Top"
         self.slider.setValue(0.0, animated: false)
+    }
+    
+    private func reset() {
+        if self.exampleView != nil {
+            self.exampleView.removeFromSuperview()
+            self.exampleButton.removeFromSuperview()
+            self.exampleView = nil
+            self.exampleButton = nil
+        }
+    }
+    
+    private func layoutButtons() {
+        
     }
 
     @IBAction func segmentedControlValueChanged(sender: UISegmentedControl) {
@@ -73,5 +105,57 @@ class ViewController: UIViewController {
             break
         }
     }
+    
+    @IBAction func sliderValueChanged(sender: UISlider) {
+        let value = CGFloat(sender.value)
+        
+        switch (self.exampleButton.direction!) {
+            
+        case .LeftToRight:
+            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+            self.exampleButton.updateColorOffest(offset)
+            
+        case .RightToLeft:
+            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+            self.exampleButton.updateColorOffest(offset)
+            
+        case .TopToBottom:
+            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+            self.exampleButton.updateColorOffest(offset)
+            
+        case .BottomToTop:
+            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+            self.exampleButton.updateColorOffest(offset)
+        }
+        
+        
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
