@@ -17,6 +17,10 @@ class ViewController: UIViewController {
 //         let path = PocketSVG.pathFromSVGFileNamed(SVGname).takeUnretainedValue()
     }
 
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
