@@ -38,10 +38,10 @@ public class ColorMaskingButton: UIButton {
     // MARK: - PUBLIC METHODS
     
     //  Basic instantiation with a CGPath of the mask. Foreground color denotes the initial color inside the mask.
-    //  Note that Color Masking Button will readjust its frame size to fit the given CGPath. Setting the frame will
-    //  only effect the origin of the button.
-    convenience public init(frame: CGRect, withPath path: CGPath, withDirection direction: MaskingDirection, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor) {
-        self.init(frame: frame)
+    //  Note that Color Masking Button will readjust its frame size to fit the given CGPath. 
+    //
+    convenience public init(origin: CGPoint, withPath path: CGPath, withDirection direction: MaskingDirection, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor) {
+        self.init(frame: CGRect(origin: origin, size: CGSizeZero))
         self.maskedView = MaskedView(path: path, withDirection: direction)
         self.maskedView.backgroundColor = backgroundColor
         self.maskedView.animatedView.backgroundColor = foregroundColor

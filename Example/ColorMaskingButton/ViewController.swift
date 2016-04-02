@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         self.label.text = "Left to Right"
         self.slider.setValue(0.0, animated: false)
         
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .LeftToRight, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(origin: CGPointZero, withPath: self.sunOffPath, withDirection: .LeftToRight, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
         self.label.text = "Right to Left"
         self.slider.setValue(1.0, animated: false)
         
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .RightToLeft, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(origin: CGPointZero, withPath: self.sunOffPath, withDirection: .RightToLeft, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         self.label.text = "Top to Bottom"
         self.slider.setValue(0.0, animated: false)
         
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .TopToBottom, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(origin: CGPointZero, withPath: self.sunOffPath, withDirection: .TopToBottom, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -113,7 +113,7 @@ class ViewController: UIViewController {
         self.label.text = "Bottom to Top"
         self.slider.setValue(1.0, animated: false)
         
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .BottomToTop, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(origin: CGPointZero, withPath: self.sunOffPath, withDirection: .BottomToTop, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
