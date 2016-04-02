@@ -72,11 +72,17 @@ func setMaskWithPath(path: CGPath)
 ```
 Change the color mask while preseving color and offset.
 
+<p align="center">
+<img src="/Assets/changing.gif" />
+</p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* Swift 2.0+
+* iOS 8.0+
 
 ## Installation
 
