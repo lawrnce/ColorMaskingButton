@@ -57,9 +57,8 @@ public class ColorMaskingButton: UIButton {
     //  Updates the offset according to the direction
     //
     //
-    public func updateColorOffest(targetOffset: CGFloat) {
-        let normalizedOffest = targetOffset - self.frame.origin.x
-        self.maskedView.setFillOffset(normalizedOffest)
+    public func updateColorOffset(targetFrame: CGRect) {
+        self.maskedView.setOffset(targetFrame)
     }
     
     //

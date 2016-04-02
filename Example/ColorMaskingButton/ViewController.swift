@@ -108,30 +108,30 @@ class ViewController: UIViewController {
     
     @IBAction func sliderValueChanged(sender: UISlider) {
         let value = CGFloat(sender.value)
+        self.exampleButton.updateColorOffset(self.exampleView.frame)
         
-        switch (self.exampleButton.direction!) {
-            
-        case .LeftToRight:
-            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-            self.exampleButton.updateColorOffest(offset)
-            
-        case .RightToLeft:
-            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-            self.exampleButton.updateColorOffest(offset)
-            
-        case .TopToBottom:
-            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-            self.exampleButton.updateColorOffest(offset)
-            
-        case .BottomToTop:
-            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-            self.exampleButton.updateColorOffest(offset)
-        }
-        
+//        switch (self.exampleButton.direction!) {
+//            
+//        case .LeftToRight:
+//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+//            self.exampleButton.updateColorOffest(offset)
+//            
+//        case .RightToLeft:
+//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+//            self.exampleButton.updateColorOffest(offset)
+//            
+//        case .TopToBottom:
+//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+//            self.exampleButton.updateColorOffest(offset)
+//            
+//        case .BottomToTop:
+//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
+//            self.exampleButton.updateColorOffest(offset)
+//        }
         
     }
 }

@@ -37,7 +37,7 @@ class MaskedView: UIView {
         // set frame to size of shape bounding box
         self.init(frame: CGRectMake(0, 0, size.width, size.height))
         self.layerMask = shapeLayer
-        self.animatedView = UIView(frame: CGRectMake(0, 0, self.frame.width * 2.0, self.frame.height * 2.0))
+        self.animatedView = UIView(frame: CGRectMake(0, 0, self.frame.width, self.frame.height))
         self.direction = direction
     }
     
@@ -56,30 +56,31 @@ class MaskedView: UIView {
     }
     
     func revertAnimatingView() {
-        self.animatedView.frame = CGRectMake(0, 0, self.frame.width * 2.0, self.frame.height * 2.0)
+        self.animatedView.frame = CGRectMake(0, 0, self.frame.width, self.frame.height)
         setNeedsLayout()
     }
     
-    func setFillOffset(targetOffset: CGFloat) {
-        let normalizedOffest = targetOffset - self.frame.origin.x
-        if normalizedOffest >= 0 && normalizedOffest <= self.frame.width {
-            
-            switch (self.direction!) {
-                
-            case .LeftToRight:
+    func setOffset(targetFrame: CGRect) {
+        
+        switch (self.direction!) {
+        case .LeftToRight:
+            let normalizedOffest = targetOffset - self.frame.origin.x
+            if normalizedOffest > -self.frame.origin.x * 2.0 && normalizedOffest < self.frame.width * 2.0 {
                 self.animatedView.frame.origin.x = normalizedOffest
-              
-            case .RightToLeft:
-                self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.width
-               
-            case .TopToBottom:
-                self.animatedView.frame.origin.y = normalizedOffest
-          
-            case .BottomToTop:
-                self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.height
+                //                print(self.animatedView.frame.origin.x, NSDate().timeIntervalSince1970)
+                setNeedsLayout()
             }
+        case .RightToLeft:
+            print("")
+            //            self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.width
             
-            setNeedsLayout()
+        case .TopToBottom:
+            print("")
+            //            self.animatedView.frame.origin.y = normalizedOffest
+            
+        case .BottomToTop:
+            print("")
+            //            self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.height
         }
     }
 }
