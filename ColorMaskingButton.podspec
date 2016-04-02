@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "ColorMaskingButton"
   s.version          = "0.1.0"
-  s.summary          = "Pan a button's color to match its surroundings."
+  s.summary          = "A color masking effect for UIButton."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Dynamically pan the color of a button to the offset of another view's frame.
                        DESC
 
   s.homepage         = "https://github.com/lawrnce/ColorMaskingButton"
@@ -35,6 +36,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
