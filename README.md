@@ -11,15 +11,12 @@
 
 ## Create a Masking Button
 
-Color Masking Button takes a CGPath as its mask. You can create a CGPath from a SVG file with [PocketSVG](https://github.com/arielelkin/PocketSVG).
+Color Masking Button uses a CGPath as its mask. You can create a CGPath from a SVG file with [PocketSVG](https://github.com/arielelkin/PocketSVG). Color Masking Button adjusts its frame to the size of the mask's path. To create different sized buttons, initiate with different sized paths.
 
 ```swift
+// Create path
 let myPath = PocketSVG.pathFromSVGFileNamed("mySVGFile").takeUnretainedValue()
-```
 
-Color Masking Button adjusts its frame to the size of the mask's path. To create different sized buttons, initiate with different sized paths.
-
-```swift
 // Set the origin of the frame, and Color Masking Button will adjust its frame
 let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath, withDirection: .LeftToRight, withForegroundColor: color1, withBackgroundColor: color2)
 ```
@@ -28,10 +25,10 @@ let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath
 
 ```swift
 enum MaskingDirection {
-    case LeftToRight
-    case RightToLeft
-    case TopToBottom
-    case BottomToTop
+case LeftToRight
+case RightToLeft
+case TopToBottom
+case BottomToTop
 }
 ```
 Defines the possible directions of the masking effect.
@@ -39,12 +36,12 @@ Defines the possible directions of the masking effect.
 #### Variables
 
 ```swift
-var direction: MaskingDirection!
+var direction: MaskingDirection
 ```
 Returns direction of the color mask. (read-only)
 
 ```swift
-var path: CGPath!
+var path: CGPath
 ```
 Returns the path of the color mask. (read-only)
 
@@ -58,10 +55,10 @@ Basic instantiation with a CGPath of the mask. Foreground color denotes the init
 ```swift
 func updateColorOffset(targetFrame: CGRect)
 ```
-Updates the mask's offset according to the target view's frame. Note that both the color masking button and the target view must be in the same superview.
+Updates the mask's offset according to the target view's frame. Note that both the Color Masking Button and the target view must be in the same superview.
 
 ```swift
-change(foregroundColor: UIColor?, andBackgroundColor backgroundColor: UIColor?)
+func change(foregroundColor: UIColor?, andBackgroundColor backgroundColor: UIColor?)
 ```
 Change the color of either the foreground or the background.
 
@@ -73,7 +70,7 @@ Force a reset the color mask.
 ```swift
 func setMaskWithPath(path: CGPath)
 ```
-Changes the color mask while preseving color and offset.
+Change the color mask while preseving color and offset.
 
 ## Example
 
