@@ -80,16 +80,44 @@ class MaskedView: UIView {
             }
             
         case .RightToLeft:
-            print("")
-            //            self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.width
+            let targetOffset = targetFrame.origin.x
+            let superviewFrameOffset = self.superview!.frame.origin.x + self.superview!.frame.width
+            let normalizedOffset = superviewFrameOffset - targetOffset
+            
+            if normalizedOffset >= 0 && normalizedOffset <= self.frame.width {
+                self.animatedView.frame.origin.x = -normalizedOffset
+                setNeedsLayout()
+            } else if normalizedOffset < 0 {
+                self.animatedView.frame.origin.x = 0.0
+            } else if normalizedOffset > self.frame.width {
+                self.animatedView.frame.origin.x = -self.frame.width
+            }
             
         case .TopToBottom:
-            print("")
-            //            self.animatedView.frame.origin.y = normalizedOffest
+            let targetOffset = targetFrame.origin.x + targetFrame.width
+            let normalizedOffset = targetOffset - self.superview!.frame.origin.x
+            
+            if normalizedOffset >= 0 && normalizedOffset <= self.frame.width {
+                self.animatedView.frame.origin.x = normalizedOffset
+                setNeedsLayout()
+            } else if normalizedOffset < 0 {
+                self.animatedView.frame.origin.x = 0.0
+            } else if normalizedOffset > self.frame.width {
+                self.animatedView.frame.origin.x = self.frame.width
+            }
             
         case .BottomToTop:
-            print("")
-            //            self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.height
+            let targetOffset = targetFrame.origin.x + targetFrame.width
+            let normalizedOffset = targetOffset - self.superview!.frame.origin.x
+            
+            if normalizedOffset >= 0 && normalizedOffset <= self.frame.width {
+                self.animatedView.frame.origin.x = normalizedOffset
+                setNeedsLayout()
+            } else if normalizedOffset < 0 {
+                self.animatedView.frame.origin.x = 0.0
+            } else if normalizedOffset > self.frame.width {
+                self.animatedView.frame.origin.x = self.frame.width
+            }
         }
     }
 }
