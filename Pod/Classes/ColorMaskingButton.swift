@@ -12,11 +12,6 @@ public class ColorMaskingButton: UIButton {
     
     // MARK: - PUBLIC VARIABLES
     
-    //  Set the increment for the mask according to the increment of your animation.
-    //  Default the increment will be set.
-    //
-    public var increment: CGFloat!
-    
     //  Returns direction of the color mask. (read-only)
     //
     //

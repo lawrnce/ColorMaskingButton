@@ -4,8 +4,6 @@
 <img src="/Assets/preview.gif" />
 </p>
 
-A subclass of UIButton with a masking effect.
-
 [![CI Status](http://img.shields.io/travis/Lawrence Tran/ColorMaskingButton.svg?style=flat)](https://travis-ci.org/Lawrence Tran/ColorMaskingButton)
 [![Version](https://img.shields.io/cocoapods/v/ColorMaskingButton.svg?style=flat)](http://cocoapods.org/pods/ColorMaskingButton)
 [![License](https://img.shields.io/cocoapods/l/ColorMaskingButton.svg?style=flat)](http://cocoapods.org/pods/ColorMaskingButton)
@@ -19,8 +17,18 @@ Color Masking Button takes a CGPath as its mask. You can create a CGPath from a 
     let myPath = PocketSVG.pathFromSVGFileNamed("mySVGFile").takeUnretainedValue()
 ```
 
+Color Masking Button adjusts its frame to the size of the mask's path. To create different sized buttons, initiate with different sized paths.
 
+```swift
+    // Set the origin of the frame, and Color Masking Button will adjust its frame
+    let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath, withDirection: .LeftToRight, withForegroundColor: color1, withBackgroundColor: color2)
+```
 
+## Documentation
+
+#### Variables
+
+#### Methods
 
 ## Example
 
