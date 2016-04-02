@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ColorMaskingButton_Example/ColorMaskingButton.framework"
+  install_framework "Pods-ColorMaskingButton_Example/PocketSVG.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ColorMaskingButton_Example/ColorMaskingButton.framework"
+  install_framework "Pods-ColorMaskingButton_Example/PocketSVG.framework"
 fi

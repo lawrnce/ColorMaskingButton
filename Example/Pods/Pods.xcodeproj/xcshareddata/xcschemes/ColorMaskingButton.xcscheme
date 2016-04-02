@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '71A2F8A5AD1722E0825C4EF7'
+               BlueprintIdentifier = 'E3DD2DD7E7B87AED62F32105'
                BlueprintName = 'ColorMaskingButton'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ColorMaskingButton.framework'>

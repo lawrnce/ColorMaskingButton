@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'ColorMaskingButton_Example', :exclusive => true do
   pod 'ColorMaskingButton', :path => '../'
+  pod 'PocketSVG'
 end
 
 target 'ColorMaskingButton_Tests', :exclusive => true do

@@ -1,15 +1,15 @@
 {
   "name": "ColorMaskingButton",
   "version": "0.1.0",
-  "summary": "A short description of ColorMaskingButton.",
+  "summary": "Pan a button's color to match its surroundings.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ColorMaskingButton",
+  "homepage": "https://github.com/lawrnce/ColorMaskingButton",
   "license": "MIT",
   "authors": {
     "Lawrence Tran": "lawrence@tran.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ColorMaskingButton.git",
+    "git": "https://github.com/lawrnce/ColorMaskingButton.git",
     "tag": "0.1.0"
   },
   "platforms": {
