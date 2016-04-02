@@ -26,8 +26,6 @@ let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath
 
 ## Documentation
 
-#### Enum
-
 ```swift
 enum MaskingDirection {
     case LeftToRight
