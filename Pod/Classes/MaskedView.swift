@@ -17,10 +17,11 @@ public enum MaskingDirection {
 
 class MaskedView: UIView {
 
+    var direction: MaskingDirection!
+    var path: CGPath!
     var animatedView: UIView!
     var layerMask: CAShapeLayer!
-    var direction: MaskingDirection!
-    
+
     private var size: CGSize!
     
     convenience init(path: CGPath, withDirection direction: MaskingDirection) {
@@ -40,6 +41,7 @@ class MaskedView: UIView {
         self.animatedView = UIView(frame: CGRectMake(0, 0, self.frame.width, self.frame.height))
         self.animatedView.center = self.center
         self.direction = direction
+        self.path = path
         self.userInteractionEnabled = false
     }
     
@@ -122,18 +124,3 @@ class MaskedView: UIView {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

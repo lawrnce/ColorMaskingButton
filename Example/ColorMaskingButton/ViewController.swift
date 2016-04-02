@@ -16,11 +16,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var slider: UISlider!
     
+    private var sunOffPath: CGPath!
+    private var sunOnPath: CGPath!
+    
     private var exampleButton: ColorMaskingButton!
     private var exampleView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.sunOffPath = PocketSVG.pathFromSVGFileNamed("SunOff").takeUnretainedValue()
+        self.sunOnPath = PocketSVG.pathFromSVGFileNamed("SunOn").takeUnretainedValue()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -37,9 +42,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // Setup each example
-    
-    //
+    //  Set left to right masking.
     //
     //
     private func setupLeftToRight() {
@@ -47,9 +50,7 @@ class ViewController: UIViewController {
         self.label.text = "Left to Right"
         self.slider.setValue(0.0, animated: false)
         
-        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
-        
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .LeftToRight, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .LeftToRight, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -62,7 +63,7 @@ class ViewController: UIViewController {
         self.view.addSubview(self.exampleButton)
     }
     
-    //
+    //  Set right to left masking.
     //
     //
     private func setupRightToLeft() {
@@ -70,9 +71,7 @@ class ViewController: UIViewController {
         self.label.text = "Right to Left"
         self.slider.setValue(1.0, animated: false)
         
-        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
-        
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .RightToLeft, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .RightToLeft, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -85,7 +84,7 @@ class ViewController: UIViewController {
         self.view.addSubview(self.exampleButton)
     }
     
-    //
+    //  Set top to bottom masking.
     //
     //
     private func setupTopToBottom() {
@@ -93,9 +92,7 @@ class ViewController: UIViewController {
         self.label.text = "Top to Bottom"
         self.slider.setValue(0.0, animated: false)
         
-        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
-        
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .TopToBottom, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .TopToBottom, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -108,7 +105,7 @@ class ViewController: UIViewController {
         self.view.addSubview(self.exampleButton)
     }
     
-    //
+    //  Set bottom to top masking.
     //
     //
     private func setupBottomToTop() {
@@ -116,9 +113,7 @@ class ViewController: UIViewController {
         self.label.text = "Bottom to Top"
         self.slider.setValue(1.0, animated: false)
         
-        let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
-        
-        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .BottomToTop, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
+        self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: self.sunOffPath, withDirection: .BottomToTop, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
         self.exampleButton.center = self.view.center
         self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
@@ -138,10 +133,6 @@ class ViewController: UIViewController {
             self.exampleView = nil
             self.exampleButton = nil
         }
-    }
-    
-    private func layoutButtons() {
-        
     }
     
     func buttonPressed(sender: UIButton) {
@@ -166,6 +157,9 @@ class ViewController: UIViewController {
         }
     }
     
+    //  Animate the panning view and pass the frame to the masking button.
+    //
+    //
     @IBAction func sliderValueChanged(sender: UISlider) {
         let value = CGFloat(sender.value)
         

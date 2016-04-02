@@ -17,10 +17,23 @@ public class ColorMaskingButton: UIButton {
     //
     public var increment: CGFloat!
     
-    //  The direction of the color mask. (read-only)
+    //  Returns direction of the color mask. (read-only)
     //
     //
-    public private(set) var direction: MaskingDirection!
+    public var direction: MaskingDirection!{
+        get {
+            return self.maskedView.direction
+        }
+    }
+    
+    //  Returns the path of the color mask. (read-only)
+    //
+    //
+    public var path: CGPath! {
+        get {
+            return self.maskedView.path
+        }
+    }
     
     // MARK: - PUBLIC METHODS
     
@@ -29,7 +42,6 @@ public class ColorMaskingButton: UIButton {
     //  only effect the origin of the button.
     convenience public init(frame: CGRect, withPath path: CGPath, withDirection direction: MaskingDirection, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor) {
         self.init(frame: frame)
-        self.direction = direction
         self.maskedView = MaskedView(path: path, withDirection: direction)
         self.maskedView.backgroundColor = backgroundColor
         self.maskedView.animatedView.backgroundColor = foregroundColor
@@ -62,7 +74,7 @@ public class ColorMaskingButton: UIButton {
         self.maskedView.setOffset(targetFrame)
     }
     
-    //
+    //  Change the CGPath.
     //
     //
     public func setMaskWithPath(path: CGPath) {
@@ -80,7 +92,7 @@ public class ColorMaskingButton: UIButton {
     
     // MARK: - PRIVATE VARIABLES
     
-    //
+    //  Masked View handles the animation masking.
     //
     //
     private var maskedView: MaskedView!
