@@ -17,12 +17,13 @@ ColorMaskingButton is available through [CocoaPods](http://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
+use_frameworks!
 pod "ColorMaskingButton"
 ```
 
 ## Author
 
-Lawrence Tran, lawrence@tran.com
+Lawrence Tran
 
 ## License
 
