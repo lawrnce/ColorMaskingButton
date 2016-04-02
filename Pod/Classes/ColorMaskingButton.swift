@@ -17,19 +17,14 @@ public enum ColorMaskingButtonDirection {
 
 public class ColorMaskingButton: UIButton {
     
-    // MARK: - PUBLIC VARIABLES
-    
-    //  Set this variable for the direction of color change.
-    //  Defaults to LeftToRight.
-    //
-    public var direction: ColorMaskingButtonDirection!
+    // MARK: - PUBLIC METHODS
     
     //  Basic instantiation with a CGPath of the mask. Foreground color denotes the initial color inside the mask.
     //  Note that Color Masking Button will readjust its frame size to fit the given CGPath. Setting the frame will
     //  only effect the origin of the button.
-    convenience public init(frame: CGRect, path: CGPath, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor) {
+    convenience public init(frame: CGRect, withPath path: CGPath, withDirection direction: ColorMaskingButtonDirection, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor) {
         self.init(frame: frame)
-        self.direction = .LeftToRight
+        self.direction = direction
         self.maskedView = MaskedView(path: path)
         self.maskedView.backgroundColor = backgroundColor
         self.maskedView.animatedView.backgroundColor = foregroundColor
@@ -62,6 +57,7 @@ public class ColorMaskingButton: UIButton {
         self.maskedView.setFillOffset(normalizedOffest)
     }
     
+    private var direction: ColorMaskingButtonDirection!
     private var maskedView: MaskedView!
     
     override public func layoutSubviews() {

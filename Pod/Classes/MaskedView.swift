@@ -16,9 +16,7 @@ class MaskedView: UIView {
     private var size: CGSize!
     
     convenience init(path: CGPath) {
-        
         // Set path for shape layer
-//        let path = PocketSVG.pathFromSVGFileNamed(SVGname).takeUnretainedValue()
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = path
         
@@ -54,9 +52,7 @@ class MaskedView: UIView {
     }
     
     func setFillOffset(targetOffset: CGFloat) {
-        
         let normalizedOffest = targetOffset - self.frame.origin.x
-        
         if normalizedOffest >= 0 && normalizedOffest <= self.frame.width {
             self.animatedView.frame.origin.x = normalizedOffest
             setNeedsLayout()
