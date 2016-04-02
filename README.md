@@ -38,7 +38,42 @@ Defines the possible directions of the masking effect.
 
 #### Variables
 
+```swift
+var direction: MaskingDirection!
+```
+Returns direction of the color mask. (read-only)
+
+```swift
+var path: CGPath!
+```
+Returns the path of the color mask. (read-only)
+
 #### Methods
+
+```swift
+init(origin: CGPoint, withPath path: CGPath, withDirection direction: MaskingDirection, withForegroundColor foregroundColor: UIColor, withBackgroundColor backgroundColor: UIColor)
+```
+Basic instantiation with a CGPath of the mask. Foreground color denotes the initial color inside the mask. Note that Color Masking Button will readjust its frame size to fit the given CGPath. 
+
+```swift
+func updateColorOffset(targetFrame: CGRect)
+```
+Updates the mask's offset according to the target view's frame. Note that both the color masking button and the target view must be in the same superview.
+
+```swift
+change(foregroundColor: UIColor?, andBackgroundColor backgroundColor: UIColor?)
+```
+Change the color of either the foreground or the background.
+
+```swift
+func resetColorMask()
+```
+Force a reset the color mask.
+
+```swift
+func setMaskWithPath(path: CGPath)
+```
+Changes the color mask while preseving color and offset.
 
 ## Example
 
