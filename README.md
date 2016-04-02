@@ -53,6 +53,11 @@ init(origin: CGPoint, withPath path: CGPath, withDirection direction: MaskingDir
 Basic instantiation with a CGPath of the mask. Foreground color denotes the initial color inside the mask. Note that Color Masking Button will readjust its frame size to fit the given CGPath. 
 
 ```swift
+func addTarget(target: AnyObject?, action: Selector, forControlEvents controlEvents: UIControlEvents)
+```
+Add target to a selector.Color Masking Button is a subclass of UIButton.
+
+```swift
 func updateColorOffset(targetFrame: CGRect)
 ```
 Updates the mask's offset according to the target view's frame. Note that both the Color Masking Button and the target view must be in the same superview.
