@@ -1,0 +1,6 @@
+framework module ColorMaskingButton {
+  umbrella header "ColorMaskingButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
