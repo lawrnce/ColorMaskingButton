@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var slider: UISlider!
     
-    private var sunOffPath: CGPath!
-    private var sunOnPath: CGPath!
+    private var sunOffPath: CGPathRef!
+    private var sunOnPath: CGPathRef!
     
     private var exampleButton: ColorMaskingButton!
     private var exampleView: UIView!
@@ -135,8 +135,15 @@ class ViewController: UIViewController {
         }
     }
     
-    func buttonPressed(sender: UIButton) {
-        print("Button Pressed")
+    //  Switch out paths
+    //
+    //
+    func buttonPressed(sender: ColorMaskingButton) {
+        if (CGPathEqualToPath(sender.path, self.sunOffPath)) {
+            sender.setMaskWithPath(self.sunOnPath)
+        } else if (CGPathEqualToPath(sender.path, self.sunOnPath)) {
+            sender.setMaskWithPath(self.sunOffPath)
+        }
     }
 
     @IBAction func segmentedControlValueChanged(sender: UISegmentedControl) {
@@ -177,12 +184,9 @@ class ViewController: UIViewController {
         case .BottomToTop:
             self.exampleView.frame.origin.y = UIScreen.mainScreen().bounds.height * (0.5 * value + 0.25)
             self.exampleView.frame.size.height = UIScreen.mainScreen().bounds.height / 2.0 * (1.0 - value)
-            
-            print(self.exampleView.frame.origin.y, self.exampleView.frame.size.height)
         }
         
-         self.exampleButton.updateColorOffset(self.exampleView.frame)
-        
+        self.exampleButton.updateColorOffset(self.exampleView.frame)
     }
 }
 
