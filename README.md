@@ -25,10 +25,10 @@ let myColorMaskingButton = ColorMaskingButton(origin: myOrigin, withPath: myPath
 
 ```swift
 enum MaskingDirection {
-case LeftToRight
-case RightToLeft
-case TopToBottom
-case BottomToTop
+    case LeftToRight
+    case RightToLeft
+    case TopToBottom
+    case BottomToTop
 }
 ```
 Defines the possible directions of the masking effect.
