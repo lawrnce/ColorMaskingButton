@@ -55,7 +55,7 @@ Basic instantiation with a CGPath of the mask. Foreground color denotes the init
 ```swift
 func addTarget(target: AnyObject?, action: Selector, forControlEvents controlEvents: UIControlEvents)
 ```
-Add target to a selector.Color Masking Button is a subclass of UIButton.
+Add target to a selector. Color Masking Button is a subclass of UIButton.
 
 ```swift
 func updateColorOffset(targetFrame: CGRect)
