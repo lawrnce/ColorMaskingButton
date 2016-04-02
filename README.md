@@ -1,4 +1,4 @@
-# ColorMaskingButton
+# Color Masking Button
 
 [![CI Status](http://img.shields.io/travis/Lawrence Tran/ColorMaskingButton.svg?style=flat)](https://travis-ci.org/Lawrence Tran/ColorMaskingButton)
 [![Version](https://img.shields.io/cocoapods/v/ColorMaskingButton.svg?style=flat)](http://cocoapods.org/pods/ColorMaskingButton)

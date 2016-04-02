@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "ColorMaskingButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ColorMaskingButton."
+  s.summary          = "Pan a button's color to match its surroundings."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ColorMaskingButton"
+  s.homepage         = "https://github.com/lawrnce/ColorMaskingButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Lawrence Tran" => "lawrence@tran.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ColorMaskingButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/lawrnce/ColorMaskingButton.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
