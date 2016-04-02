@@ -33,6 +33,7 @@ public class ColorMaskingButton: UIButton {
         self.maskedView = MaskedView(path: path, withDirection: direction)
         self.maskedView.backgroundColor = backgroundColor
         self.maskedView.animatedView.backgroundColor = foregroundColor
+        self.layoutSubviews()
     }
 
     //  Change the color of either the foreground or the background.
@@ -88,7 +89,7 @@ public class ColorMaskingButton: UIButton {
         super.layoutSubviews()
         self.maskedView.center = CGPointMake(self.frame.width / 2.0, self.frame.height / 2.0)
         self.addSubview(self.maskedView)
-        self.sizeToFit()
+        self.frame.size = self.maskedView.bounds.size
     }
     
     override init(frame: CGRect) {

@@ -46,7 +46,8 @@ class ViewController: UIViewController {
         let closePath = PocketSVG.pathFromSVGFileNamed("Close").takeUnretainedValue()
         
         self.exampleButton = ColorMaskingButton(frame: CGRectZero, withPath: closePath, withDirection: .LeftToRight, withForegroundColor: UIColor.blackColor(), withBackgroundColor: UIColor.whiteColor())
-        self.exampleButton.frame.origin = self.view.center
+        self.exampleButton.center = self.view.center
+        self.exampleButton.addTarget(self, action: Selector("buttonPressed:"), forControlEvents: .TouchUpInside)
         
         self.exampleView = UIView(frame: CGRect(x: 0,
             y: UIScreen.mainScreen().bounds.height / 4.0,
@@ -87,6 +88,10 @@ class ViewController: UIViewController {
     private func layoutButtons() {
         
     }
+    
+    func buttonPressed(sender: UIButton) {
+        print("Button Pressed")
+    }
 
     @IBAction func segmentedControlValueChanged(sender: UISegmentedControl) {
         let value = sender.selectedSegmentIndex
@@ -108,30 +113,32 @@ class ViewController: UIViewController {
     
     @IBAction func sliderValueChanged(sender: UISlider) {
         let value = CGFloat(sender.value)
-        self.exampleButton.updateColorOffset(self.exampleView.frame)
         
-//        switch (self.exampleButton.direction!) {
-//            
-//        case .LeftToRight:
+        switch (self.exampleButton.direction!) {
+            
+        case .LeftToRight:
+            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
+            
+        case .RightToLeft:
+            break
 //            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
 //            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
 //            self.exampleButton.updateColorOffest(offset)
-//            
-//        case .RightToLeft:
+            
+        case .TopToBottom:
+            break
 //            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
 //            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
 //            self.exampleButton.updateColorOffest(offset)
-//            
-//        case .TopToBottom:
+            
+        case .BottomToTop:
+            break
 //            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
 //            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
 //            self.exampleButton.updateColorOffest(offset)
-//            
-//        case .BottomToTop:
-//            self.exampleView.frame.size.width = UIScreen.mainScreen().bounds.width * value
-//            let offset = self.exampleView.frame.origin.x + self.exampleView.frame.width
-//            self.exampleButton.updateColorOffest(offset)
-//        }
+        }
+        
+         self.exampleButton.updateColorOffset(self.exampleView.frame)
         
     }
 }

@@ -38,7 +38,9 @@ class MaskedView: UIView {
         self.init(frame: CGRectMake(0, 0, size.width, size.height))
         self.layerMask = shapeLayer
         self.animatedView = UIView(frame: CGRectMake(0, 0, self.frame.width, self.frame.height))
+        self.animatedView.center = self.center
         self.direction = direction
+        self.userInteractionEnabled = false
     }
     
     override init(frame: CGRect) {
@@ -57,6 +59,7 @@ class MaskedView: UIView {
     
     func revertAnimatingView() {
         self.animatedView.frame = CGRectMake(0, 0, self.frame.width, self.frame.height)
+        self.animatedView.center = self.center
         setNeedsLayout()
     }
     
@@ -64,12 +67,18 @@ class MaskedView: UIView {
         
         switch (self.direction!) {
         case .LeftToRight:
-            let normalizedOffest = targetOffset - self.frame.origin.x
-            if normalizedOffest > -self.frame.origin.x * 2.0 && normalizedOffest < self.frame.width * 2.0 {
-                self.animatedView.frame.origin.x = normalizedOffest
-                //                print(self.animatedView.frame.origin.x, NSDate().timeIntervalSince1970)
+            let targetOffset = targetFrame.origin.x + targetFrame.width
+            let normalizedOffset = targetOffset - self.superview!.frame.origin.x
+           
+            if normalizedOffset >= 0 && normalizedOffset <= self.frame.width {
+                self.animatedView.frame.origin.x = normalizedOffset
                 setNeedsLayout()
+            } else if normalizedOffset < 0 {
+                self.animatedView.frame.origin.x = 0.0
+            } else if normalizedOffset > self.frame.width {
+                self.animatedView.frame.origin.x = self.frame.width
             }
+            
         case .RightToLeft:
             print("")
             //            self.animatedView.frame.origin.x = normalizedOffest + self.animatedView.frame.width
