@@ -4,7 +4,9 @@
 <img src="/Assets/preview.gif" />
 </p>
 
+<!---
 [![CI Status](http://img.shields.io/travis/Lawrence Tran/ColorMaskingButton.svg?style=flat)](https://travis-ci.org/Lawrence Tran/ColorMaskingButton)
+-->
 [![Version](https://img.shields.io/cocoapods/v/ColorMaskingButton.svg?style=flat)](http://cocoapods.org/pods/ColorMaskingButton)
 [![License](https://img.shields.io/cocoapods/l/ColorMaskingButton.svg?style=flat)](http://cocoapods.org/pods/ColorMaskingButton)
 [![Platform](https://img.shields.io/cocoapods/p/ColorMaskingButton.svg?style=flat)](http://cocoapods.org/pods/ColorMaskingButton)
