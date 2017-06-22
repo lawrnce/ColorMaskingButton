@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ColorMaskingButton"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A color masking effect for UIButton."
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ Dynamically pan the color of a button to the offset of another view's frame.
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'ColorMaskingButton' => ['Pod/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'ColorMaskingButton' => ['Pod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
