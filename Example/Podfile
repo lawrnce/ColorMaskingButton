@@ -1,14 +1,9 @@
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+inhibit_all_warnings!
 use_frameworks!
 
-target 'ColorMaskingButton_Example', :exclusive => true do
+target 'ColorMaskingButton_Example' do
   pod 'ColorMaskingButton', :path => '../'
   pod 'PocketSVG'
 end
 
-target 'ColorMaskingButton_Tests', :exclusive => true do
-  pod 'ColorMaskingButton', :path => '../'
-
-  pod 'Quick', '~> 0.8'
-  pod 'Nimble', '~> 3.0'
-end

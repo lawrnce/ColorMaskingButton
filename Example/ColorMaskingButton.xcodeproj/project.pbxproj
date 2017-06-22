@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		321121EA5A3A3BA253666B09 /* Pods_ColorMaskingButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B87A471A99E652EDBBD48D /* Pods_ColorMaskingButton_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		778E937E5E0686FEED5B918D /* Pods_ColorMaskingButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C228C7FB25A1F00F67CA9F /* Pods_ColorMaskingButton_Example.framework */; };
+		8E5DC65A4B28431A2C84FB7F /* Pods_ColorMaskingButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C44BC6ECC47DC8C3A962E0C /* Pods_ColorMaskingButton_Example.framework */; };
 		E69012661CB0572700058852 /* SunOff.svg in Resources */ = {isa = PBXBuildFile; fileRef = E69012641CB0572700058852 /* SunOff.svg */; };
 		E69012671CB0572700058852 /* SunOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = E69012651CB0572700058852 /* SunOn.svg */; };
 /* End PBXBuildFile section */
@@ -30,9 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C228C7FB25A1F00F67CA9F /* Pods_ColorMaskingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorMaskingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2921B4A044A1CE34955B04B5 /* Pods-ColorMaskingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44B87A471A99E652EDBBD48D /* Pods_ColorMaskingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorMaskingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C44BC6ECC47DC8C3A962E0C /* Pods_ColorMaskingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorMaskingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4219DF500809B4B643E86D04 /* Pods-ColorMaskingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ColorMaskingButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMaskingButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7F64BF1C040CA73440159F76 /* ColorMaskingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorMaskingButton.podspec; path = ../ColorMaskingButton.podspec; sourceTree = "<group>"; };
-		96FC680E1DE1C044D7BD2E2E /* Pods-ColorMaskingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE9E50B27CCFA43D2162292 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C69C9030CABD1FBE443832C8 /* Pods-ColorMaskingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAE9230131E1314DACBA0087 /* Pods-ColorMaskingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CFAD08411AD2B7051969E191 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2D0FEAFBB56D2105032E38C /* Pods-ColorMaskingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMaskingButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E69012641CB0572700058852 /* SunOff.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SunOff.svg; sourceTree = "<group>"; };
 		E69012651CB0572700058852 /* SunOn.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SunOn.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				778E937E5E0686FEED5B918D /* Pods_ColorMaskingButton_Example.framework in Frameworks */,
+				8E5DC65A4B28431A2C84FB7F /* Pods_ColorMaskingButton_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,18 +62,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				321121EA5A3A3BA253666B09 /* Pods_ColorMaskingButton_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24BAFF909DDBF6EE3EE4D82B /* Frameworks */ = {
+		2159D809F438FC23DDF9B324 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01C228C7FB25A1F00F67CA9F /* Pods_ColorMaskingButton_Example.framework */,
-				44B87A471A99E652EDBBD48D /* Pods_ColorMaskingButton_Tests.framework */,
+				2C44BC6ECC47DC8C3A962E0C /* Pods_ColorMaskingButton_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,8 +83,8 @@
 				607FACD21AFB9204008FA782 /* Example for ColorMaskingButton */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				886CE2C6FEB6D7625CD41BBB /* Pods */,
-				24BAFF909DDBF6EE3EE4D82B /* Frameworks */,
+				C49EC58CC582F430FA9FB205 /* Pods */,
+				2159D809F438FC23DDF9B324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,13 +148,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		886CE2C6FEB6D7625CD41BBB /* Pods */ = {
+		C49EC58CC582F430FA9FB205 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2921B4A044A1CE34955B04B5 /* Pods-ColorMaskingButton_Example.debug.xcconfig */,
-				C69C9030CABD1FBE443832C8 /* Pods-ColorMaskingButton_Example.release.xcconfig */,
-				96FC680E1DE1C044D7BD2E2E /* Pods-ColorMaskingButton_Tests.debug.xcconfig */,
-				CAE9230131E1314DACBA0087 /* Pods-ColorMaskingButton_Tests.release.xcconfig */,
+				4219DF500809B4B643E86D04 /* Pods-ColorMaskingButton_Example.debug.xcconfig */,
+				E2D0FEAFBB56D2105032E38C /* Pods-ColorMaskingButton_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -172,12 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ColorMaskingButton_Example" */;
 			buildPhases = (
-				B2FF2DB7DD83BC0FA04295A1 /* Check Pods Manifest.lock */,
+				2143B032833AC550312C1AAD /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				19B04B04D43CC71615DC5491 /* Embed Pods Frameworks */,
-				D3616AF19E9FF6E1F419CDED /* Copy Pods Resources */,
+				0142987FD063CC0B124F302B /* [CP] Embed Pods Frameworks */,
+				F0AB028E357DDE3D8F5BB5A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +184,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ColorMaskingButton_Tests" */;
 			buildPhases = (
-				6A44499266DDD09AEA262138 /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				EF72A926E4177A9414CA3643 /* Embed Pods Frameworks */,
-				94E208972FFC2B2D057A6B17 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,14 +259,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		19B04B04D43CC71615DC5491 /* Embed Pods Frameworks */ = {
+		0142987FD063CC0B124F302B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,79 +274,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A44499266DDD09AEA262138 /* Check Pods Manifest.lock */ = {
+		2143B032833AC550312C1AAD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		94E208972FFC2B2D057A6B17 /* Copy Pods Resources */ = {
+		F0AB028E357DDE3D8F5BB5A8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2FF2DB7DD83BC0FA04295A1 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D3616AF19E9FF6E1F419CDED /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF72A926E4177A9414CA3643 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,7 +438,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2921B4A044A1CE34955B04B5 /* Pods-ColorMaskingButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 4219DF500809B4B643E86D04 /* Pods-ColorMaskingButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColorMaskingButton/Info.plist;
@@ -507,7 +451,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C69C9030CABD1FBE443832C8 /* Pods-ColorMaskingButton_Example.release.xcconfig */;
+			baseConfigurationReference = E2D0FEAFBB56D2105032E38C /* Pods-ColorMaskingButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColorMaskingButton/Info.plist;
@@ -520,7 +464,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96FC680E1DE1C044D7BD2E2E /* Pods-ColorMaskingButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -541,7 +484,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAE9230131E1314DACBA0087 /* Pods-ColorMaskingButton_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -7,726 +7,332 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A9FD93E86C0CD07A37D7BF34A02F09 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB11B01A620BBDFD35E43423492A67E /* Match.swift */; };
-		0C7D983784C172658E38DCBDFF57A756 /* Pods-ColorMaskingButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B037EEDD74A7774107215054801A8E6B /* Pods-ColorMaskingButton_Tests-dummy.m */; };
-		0FB7E115C3A30D94DC43D57C257126AF /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9319CC35374152FB7BA664A3B30A7B1E /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		112614F21939902B59102E6E876ADCBC /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A4BE4ED0273E0E4EE9A198994484A /* RaisesException.swift */; };
-		135B6326D35C977854AA0C12B3F6CB7D /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBC002267B3CAB11AC01A10FB5CEB7 /* DSL.swift */; };
-		13CC849FA70CADF802470B6A90DCDF79 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9739391D8801709101EBA505160AA /* AllPass.swift */; };
-		1DB5051E96B532726E84142AAB3CB6FE /* Pods-ColorMaskingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FF7DDB3B3164A998BB5413E9F76CE7 /* Pods-ColorMaskingButton_Example-dummy.m */; };
-		1DB74B8D4408CE139367A0C341BBF527 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223BE49FB700B7F8835C90D4B01D2F1 /* SuiteHooks.swift */; };
-		1EB76AE7885CEFA9100BCAD9F72CA1FE /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1850186E906EA420E6E76DEDD556412 /* World+DSL.swift */; };
-		1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A701F1CCDBD9AB97E23C1BE06FD2C5C2 /* NMBExceptionCapture.m */; };
-		200B53B04AE7192A1F9D0E0A88D9FBF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */; };
-		23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F11973B06D1CFCE6FEF7D3A3690735EC /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29087D65C2CE2997A8665807302FA837 /* ColorMaskingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7CD8AECBDC6E6C844CCD7FD0979B0D /* ColorMaskingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F6DDEC04F90AA10638ABD887B00B0E7 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B356050EFA93D480AB1DACC3C5E584B /* QuickSpec.m */; };
-		30042AD82B065391DB750851D39BC7B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019FD564423A52818A80CCB6B6519E15 /* XCTest.framework */; };
-		30AACAA8D51DC8C429577D9B67BB016C /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEE91C18F3D8EB631D4246A12E9680 /* BeginWith.swift */; };
-		31629295E87A24C98238C66D41983C49 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7836F7F77C6E1415C3497F5C0452EC0 /* BeVoid.swift */; };
-		35ED660803D41FC4CF3501526FA04E77 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = D3958DFBB91DEDDA28BF8D443E00846F /* QCKDSL.m */; };
-		374527D2049AFD6C65C72DC706743C6D /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC204CFAF057EDDD64E898ECFC236 /* ExampleMetadata.swift */; };
-		38F5CE4B4C59A81734A93E32D35B696E /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE395499A7BA43058922F9C8D0625E3 /* FailureMessage.swift */; };
-		3A96C8266ADB925EEA6BD51F692CB5C2 /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CAA2D8D8879995FD8283B30D0CEC7 /* PocketSVG.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3D1BB98DEA422D8F173613EC715488B9 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF73E56188C036BD1868CF9E30B9CED /* PostNotification.swift */; };
-		415F29FE4E9D970954C46CD3CF4AE345 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CAE3B2F88610803F6668379ABBBEA /* SatisfyAnyOf.swift */; };
-		4227761D5137686F04BC556842D60425 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A38C12C0EFF6CE64060D921765092A /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43FEDEBBD03E9F99A528B377216091D8 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC128D2E47F586364EB35F458C1D9F8A /* ExampleGroup.swift */; };
-		44DA6B8E3BFFE4F65B21C23301346813 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2858207D8B8C9195F359C67E499DA /* Filter.swift */; };
-		47FB3D636B6415042B47789CB1D170E4 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0B3CE364175BCF7AE9D23353472A0 /* Closures.swift */; };
-		486B74C8EFEB68AD25CE128F3051E432 /* ObjCExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4F2BE4784F4AE458B88318D3CA3DF /* ObjCExpectation.swift */; };
-		4AF6C26A30D865059C24DC5317786B76 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1037C87010757CDA0D98648184CC914 /* BeNil.swift */; };
-		4E4B2BB330C208069EAFABF6D9740D6F /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313757751A8D7B2C3BE0DF9D10EBDEB /* ExampleHooks.swift */; };
-		4E5A721963877AA3A6AA3D80DAA4E5E9 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79076D6EA75EF7D61880F76C0B879F22 /* AssertionRecorder.swift */; };
-		4F6EC40616D88F861C31487479FCE121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */; };
-		5104AE2989305145BF446E633B567924 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F8CD3D0D0F4BCEBA47AA9F60C51E86 /* EndWith.swift */; };
-		52F62AFB07AF1429A0578978B0820924 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDBD18172229F9EBCCD4316EE2B23D /* HooksPhase.swift */; };
-		5969018003126E715AD4A95ECDAEF518 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724E7A2246B43EDF63BA2B8183F3C7B /* NSBundle+CurrentTestBundle.swift */; };
-		5A02F0CFC24E01A9DC682856EF3BC28A /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47B9D27D5B4D178D7A21A81D0DE73CB /* ErrorUtility.swift */; };
-		5ABF60D9A2632DD0A49F73F4FE2B6371 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FE584684FE05C5ED9CE94A6D07526F /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5B08A96752A874A63402E40D22D4F244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */; };
-		5EF5C00C6AECE1FCFFF118577817F5CE /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA50285D5CBBB72BF3E3E3256D37CA /* Equal.swift */; };
-		60CCD0120FFA8193572FC83DE2D3F66F /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5C286849B06479DB2FF08904FB3727 /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63BBD83995BA60FA7D2E6AD4138C0D71 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49E5EAD067D26795DF4D18FCEF9F89 /* Functional.swift */; };
-		64539BE196D1741570018FFF86F14133 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629436DADF02EDDB9B0A235EC9DCEC44 /* MatcherFunc.swift */; };
-		68527A7545342CBB4F923DC8543F7B20 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5728A81FDC783FA1A676B4E318574B /* DSL.m */; };
-		6DF8A5233E48BD9B68BF4F291222567E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */; };
-		6ED0409031540D9B2AD7B061B608B0C9 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DD8A742C0944BEF8DEB3A6296947D /* DSL+Wait.swift */; };
-		7202A0B871C57B7857341D88C2883A3A /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BDED91738661D5FB51EAC1024E8E4 /* BeIdenticalTo.swift */; };
-		7445949871333E41443893C335345D6E /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 9169B633865A55ACFFD940A348EF966B /* NSString+QCKSelectorName.m */; };
-		7734BABBECE0071CF5D4430515B938BF /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E3F722BA2A591032E4890F3D4CCF /* BeCloseTo.swift */; };
-		775646739B95E828ECE349F6A39534F4 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53BE2A0A1F9140AF09E0A8D73B39E7 /* NimbleEnvironment.swift */; };
-		792A355081D4A910795DFA902EF64544 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF42557DFC7C3B145E6D08429DB0D87 /* QuartzCore.framework */; };
-		7CC86ABC7F4135EE12A755B023F134CE /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D701AD8E030122F291C22DA7C43430 /* AssertionDispatcher.swift */; };
-		7DC9B169B5FCC3EE99F6D36EC530FE1E /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78D9205CF0F56714295580367C9DA68 /* Async.swift */; };
-		7EBD6B630F4536CB673DC0B455CCB16D /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF14A65E98E988135C5FA7E61376786 /* BeGreaterThan.swift */; };
-		7F40FC3F4DE4EA4702F41F01A12A7353 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77185C487C72FFC69EEB8608EFFDDB7 /* BeLessThan.swift */; };
-		800A161E9B82DEEDA41B7F1A746B24C4 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D114A280D83FA1CD765851B6ABDAFDE7 /* ObjCMatcher.swift */; };
-		8040A37FF5BBDF1964CAB8C0068ED315 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0EF69141A12318E6C3021908698C /* BeGreaterThanOrEqualTo.swift */; };
-		81E6453ECE511335537301CD3B1C1B82 /* ExceptionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E77C5D07846B73F950B967761B19DE /* ExceptionCapture.swift */; };
-		83F1AE0FAD78052439B61EA02A9726E3 /* PocketSVG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1144BD8E0FA98174831C3B93CDF86C09 /* PocketSVG-dummy.m */; };
-		86FB708FCFE6121A82BB09E5ADD84554 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 617CDDADB7C83F44D27E9213AAE046F8 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CE8940EBC13854C4A44AA6DFCC3C83F /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F201F3A3C48501156E69819EE5E24A /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F1DEFEA0CCE9C66219F581F67861644 /* Pods-ColorMaskingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCC1564A3A0141333ACF467D8FB1110 /* Pods-ColorMaskingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90C663A618BEC06349C95E6B9AF7B408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */; };
-		91DDE898AB02B3A5FA8CDAC36F88E1B2 /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 196E5C9C48543A8548A0E31BD2EDD9F9 /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91ED5B067FCA3CBD48E3114672941051 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E93BA4D002F72BA4C6A91CBC52534C /* MatcherProtocols.swift */; };
-		92C6B29842374AA2A03BAD27354C9C44 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC74626A431489C10050F369326977A /* XCTestSuite+QuickTestSuiteBuilder.m */; };
-		96ED0CCA721955637A88FE0C9737EC56 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58FD0B74A16360AB28D93817EB82932 /* SourceLocation.swift */; };
-		9B5DE58927557CE87968C051D2A1C47E /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CD48D819AF98D75E32F902125F244 /* BeLogical.swift */; };
-		9EE6B49B076F758C6C6A047E75BEE54B /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7783E64B0B6BDF70D8EF19D385A57A24 /* QuickConfiguration.m */; };
-		9F08F74CB8740CF0EFF26746EEB0C930 /* CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553A401604D048B825D5E143BD82337 /* CurrentTestCaseTracker.m */; };
-		A0B9E587CC6444046DDD12B41D6439E0 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466ACB42A22B555B8A24B733E70ED16 /* World.swift */; };
-		A1613FFFCD2144753FBA3C81BC32F217 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB6C312507B710BA49D4526C58BDFDA /* DSL.swift */; };
-		A1D7ACDE35905FC8F38DADD11D2BDA8D /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DF80C35F79D7B1DBFCE1162A9F62FF /* QuickSelectedTestSuiteBuilder.swift */; };
-		A2CABD326609AD67377700A148785E09 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73EB204B904C5B8183290646662ECCF /* BeAnInstanceOf.swift */; };
-		A374A2729E32469085C5025EC7115EB8 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8251DB4AC7DB50CB843407775417DE /* Stringers.swift */; };
-		A55EC200F57C00E9A78D8A9DA4545338 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F146AAEB268F308FD5788E3508594 /* HaveCount.swift */; };
-		A58C1F3A2F88A9374B60E28AE9891FB2 /* Pods-ColorMaskingButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3660876A7AA3AFC3724029D214F0574F /* Pods-ColorMaskingButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB244418323AF14AE2A60DE5B2B334F3 /* ColorMaskingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC2E64127FAC15AF246E0514701693 /* ColorMaskingButton.swift */; };
-		B01C2AD3F7CFD54DB4BDADFEE71AADA1 /* ColorMaskingButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFBF7A4A295EBFC0BCDCB68187D8D72B /* ColorMaskingButton.bundle */; };
-		B0A22C72986CFF77E06E48F57B1AAFD4 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D04E4E2EC4747E64CA9658CF5DD9E1 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5503436FD5F38B0DFBF941E2F3F0B58 /* ThrowError.swift */; };
-		B7CA1A5500AADF975C9EA06E7B27ED8B /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8EEB500375A1DBE261AF198238B552 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9D2E426B5CA226D60A78A71FA289D4C /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A613CA19F4E05E89397069993D29FA7D /* AsyncMatcherWrapper.swift */; };
-		BBB8CDE37188D4F9FEDC07505E11E120 /* ColorMaskingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E585898FB8D48DEF3DC4A503F505D /* ColorMaskingButton-dummy.m */; };
-		C12E0930E021F1894B60BC6AFA8F2409 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3584A3865B38832D22F190A9CE6C49 /* AdapterProtocols.swift */; };
-		C234D4A30C97DC3661F0E563D6C25603 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE588BEAD51B1F3071A32A71613FD321 /* Quick-dummy.m */; };
-		C672EB4F1429F71CA19CD022BA1EA687 /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB8EA7B8A26CF792044DAC027CCA41 /* String+FileName.swift */; };
-		C81FFEEC76399EF3C7C1EE349C810E76 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA78261668DA55B72F20A5914D1E2944 /* NimbleXCTestHandler.swift */; };
-		CA74D9158631D5F90D15A654E3296E39 /* MaskedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69F5D7AF848244BF3E177AE80D9E20 /* MaskedView.swift */; };
-		CD0A671D2A8DD31D50449BB358C56134 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9140781F6E0F5E859361F670F48384 /* Expression.swift */; };
-		D41F628A81153A978EB209E4FE925700 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAC9D492121DF6E2DBBD15D78D95665 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4AF766BEFF0A491C706490CBD258427 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE1AC2DBBDA7176778FED2D7C5BDAB /* Callsite.swift */; };
-		D986E647D70C76E49A2E7B0070FE910D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */; };
-		DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BFBE271CBF5E54EC4726C5A1E8E4F /* Contain.swift */; };
-		DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A9ACFB26BD2D9EF5741E9A36DAAEE5 /* Nimble-dummy.m */; };
-		E2D49B342F601D6807A5BC24442804C5 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD68260C5AA31399E1AF775D33702D6 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2DFC64AAFF3075390270B927E1A9485 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806D466187D5E633ADA5EFBB2AC89DA /* Example.swift */; };
-		E6F6FF9554A6C7EABD6B92B691751DAD /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA374D06BDEC227990FD46F3BEE4017 /* BeLessThanOrEqual.swift */; };
-		E7A5802F63927E0F710A0F549359C280 /* PocketSVG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F542D3877EDE4C6E6491301EC73FEF /* PocketSVG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4B19D4D40E9204CB9EA9BAABECDCCE /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9A500611CF699885DE8A6BAB4E6B392 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DA847D49B5F378A0552A3268BDF43 /* BeEmpty.swift */; };
-		ED89F16DA3C99E34A26E85496611BE14 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D7B1012D3642F7E0407B49902678A /* QuickTestSuite.swift */; };
-		EEACA15009CB92B5962B4D6BB89DBADC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792B45B554DB454D23B5A632A7A323E /* Configuration.swift */; };
-		F85A9207A8601CE7F835CEC56790616F /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1556FE9FC49084E71A44A4484E7 /* Expectation.swift */; };
-		FB09A16A6662F2689D4AA89538DBF1C1 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09323EFE3CAE62749E743F22ECCE2FDD /* BeAKindOf.swift */; };
+		0DA273F2854ACE2DE306E558E248696C /* Pods-ColorMaskingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7702769321F77CC023A00D79CAD196DE /* Pods-ColorMaskingButton_Example-dummy.m */; };
+		181F055C60A2CF3348BA46E26D3C3C2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		1BB6FEA97ED76E412BA7804BE461B520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		311E41C16E330B270D1DDE3C7FB46C9D /* ColorMaskingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36133FF0C15691031116FFCB5FEADF8C /* ColorMaskingButton.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32D62CA83014E6EAA9D53BD2B849657C /* ColorMaskingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 733DC26921DA3BA89D1C6E7522FA71D2 /* ColorMaskingButton-dummy.m */; };
+		3EABFCA1830FD7B80D6E8F6F02021AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		48E30E9ED7216216FC149788A5D7C93B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		6941BE1D9686A22F88801A02234FCED5 /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DDC151BFA0260C3C969759EAB5DF00 /* PocketSVG.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C39A651D0E4CBFC3BE33BFF5CF533D1 /* Pods-ColorMaskingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AA073B6691E92E772F8231CD09FC1 /* Pods-ColorMaskingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBEA0615435E5C5EB37507446105C75 /* MaskedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936C21BBB7C62CEC6E01AA4CCF2808AF /* MaskedView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71F8B9F9EF32C72E0C2D2FAEAC5BF9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		942D583AB110E3E61D79D1913988FA87 /* PocketSVG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95178986A940E64C065E32F0B26B98 /* PocketSVG-dummy.m */; };
+		968E5FACDFE8671D94319E4D508EB457 /* ColorMaskingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4369A6803C5DB2EA3153D28D54B716D8 /* ColorMaskingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFC459257A053FFCF497F90B9F26EBA /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = DB66E4752C03072AA842D97AD3509F14 /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62438697659F55DDF46EC8D0CD25F56 /* ColorMaskingButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29FD3042CB469E1E7C274C81D5162661 /* ColorMaskingButton.bundle */; };
+		DCAF449C87464B5EE62EBDC57E046285 /* PocketSVG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6DE67D6A1EE68805A54325DAA294A0 /* PocketSVG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23B2D02145014A1858AD432CA8EA9D4C /* PBXContainerItemProxy */ = {
+		2B08992F9DCA28321BA3F8F42B84A6A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3212587813DC852E372C156B65F175A;
-			remoteInfo = ColorMaskingButton;
-		};
-		272175316C9DE6DEECCEE75D5CD9F256 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3212587813DC852E372C156B65F175A;
-			remoteInfo = ColorMaskingButton;
-		};
-		5768487F4F59A7E9E37D1CC4AAAD7B70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 197F8364933AF11FA60C223B6E6D6406;
-			remoteInfo = "ColorMaskingButton-ColorMaskingButton";
-		};
-		99DD21D1F43982D66F30DC4BF9C58922 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 539AB1A6D59B64ED6715FB2CEEDDEDA9;
+			remoteGlobalIDString = 4A3486F3CC69B540784D2B9698B9752D;
 			remoteInfo = PocketSVG;
 		};
-		E087B947E2DD5B85BF11104CE88F1011 /* PBXContainerItemProxy */ = {
+		96CA1AC27E01D8F0364EA95E89E8D2BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 459671D4DFD32A3505F55B8405B246C1;
-			remoteInfo = Quick;
+			remoteGlobalIDString = 26AD0DD35ABA0534502486165D67CA02;
+			remoteInfo = "ColorMaskingButton-ColorMaskingButton";
 		};
-		E7D254BED91F5C4775AE70085DF81914 /* PBXContainerItemProxy */ = {
+		FE54823A24A1F12E9D92D01E724BBD5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF61C7C740C1B196A3B33F37B77DBC68;
-			remoteInfo = Nimble;
+			remoteGlobalIDString = BC061987F86372B7E62F9355B67C8BAF;
+			remoteInfo = ColorMaskingButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019FD564423A52818A80CCB6B6519E15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		02968DC3E1227C08E084BEFC233A9E49 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
-		033DD8A742C0944BEF8DEB3A6296947D /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
-		071965B4B77DDAB29B0811E4B0C95088 /* Pods-ColorMaskingButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorMaskingButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0792B45B554DB454D23B5A632A7A323E /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
-		09323EFE3CAE62749E743F22ECCE2FDD /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
-		09FAC6D83AB981758DD41A9E38B478F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AAC9D492121DF6E2DBBD15D78D95665 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
-		0AF73E56188C036BD1868CF9E30B9CED /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
-		0CB11B01A620BBDFD35E43423492A67E /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
-		0D5B5251C2BECD399E9298D6540EC142 /* Pods-ColorMaskingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorMaskingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0F90625192BF87285A2F0C3003BDD264 /* Pods-ColorMaskingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorMaskingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1144BD8E0FA98174831C3B93CDF86C09 /* PocketSVG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PocketSVG-dummy.m"; sourceTree = "<group>"; };
-		11FE584684FE05C5ED9CE94A6D07526F /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/Quick/DSL/World+DSL.h"; sourceTree = "<group>"; };
-		133F769BAF622FBB5C9223CC5CA1D755 /* Pods-ColorMaskingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorMaskingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		15CA845A679AFC1FA512D0AC9F95D3E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		173BFBE271CBF5E54EC4726C5A1E8E4F /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
-		18F542D3877EDE4C6E6491301EC73FEF /* PocketSVG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSVG-umbrella.h"; sourceTree = "<group>"; };
-		196E5C9C48543A8548A0E31BD2EDD9F9 /* PocketSVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PocketSVG.h; sourceTree = "<group>"; };
-		19F0883254BFFB54FDBFCDC86E0DD3DC /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AE395499A7BA43058922F9C8D0625E3 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
-		1E068B0390353549E9FD930CDEF1441F /* PocketSVG.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PocketSVG.xcconfig; sourceTree = "<group>"; };
-		20A63B264075F8F0E6C2892C6D93AA47 /* Pods-ColorMaskingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorMaskingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		20E93BA4D002F72BA4C6A91CBC52534C /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
-		2223BE49FB700B7F8835C90D4B01D2F1 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
-		24C0B3CE364175BCF7AE9D23353472A0 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
-		24DA673CB8BDB5FBF8CF9BAF0C3E3A18 /* ColorMaskingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorMaskingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2534F02154099F19B1EAF56F8C179E5A /* ColorMaskingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorMaskingButton-prefix.pch"; sourceTree = "<group>"; };
-		2724E7A2246B43EDF63BA2B8183F3C7B /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
-		27B5A94F2525911F6438CA511DD8666D /* Pods-ColorMaskingButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorMaskingButton_Example-resources.sh"; sourceTree = "<group>"; };
-		2CF9739391D8801709101EBA505160AA /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
-		2E53A6C9DDC95DF634C695A102A8B63D /* Pods-ColorMaskingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorMaskingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		30AE1AC2DBBDA7176778FED2D7C5BDAB /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
-		34A67F10F9682165A0AA59F14C766243 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34D04E4E2EC4747E64CA9658CF5DD9E1 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/Quick/Quick.h; sourceTree = "<group>"; };
-		35470C2B55705BBE7F73FE5AE4F0E0C0 /* Pods-ColorMaskingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorMaskingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3660876A7AA3AFC3724029D214F0574F /* Pods-ColorMaskingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorMaskingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3A27E3F722BA2A591032E4890F3D4CCF /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
-		3B9140781F6E0F5E859361F670F48384 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
-		3D6F146AAEB268F308FD5788E3508594 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
-		3F8EEB500375A1DBE261AF198238B552 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/Quick/World.h; sourceTree = "<group>"; };
-		413CAA2D8D8879995FD8283B30D0CEC7 /* PocketSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PocketSVG.m; sourceTree = "<group>"; };
-		4553A401604D048B825D5E143BD82337 /* CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CurrentTestCaseTracker.m; path = Sources/Nimble/objc/CurrentTestCaseTracker.m; sourceTree = "<group>"; };
-		45865FE5072D67D82E417E3DAE891D2D /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quick.modulemap; sourceTree = "<group>"; };
-		47603618C6E4A209DE3CAF24F47F4DBD /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
-		485CAE3B2F88610803F6668379ABBBEA /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
-		4E31C95659E8AA41CFC8487E8DF6D34A /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
-		4FC74626A431489C10050F369326977A /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/Quick/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
-		537D7B1012D3642F7E0407B49902678A /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
-		57E77C5D07846B73F950B967761B19DE /* ExceptionCapture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExceptionCapture.swift; path = Sources/Nimble/Utils/ExceptionCapture.swift; sourceTree = "<group>"; };
-		59DACC89661EA9A6F1E0F304FDE4EC1C /* Pods-ColorMaskingButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorMaskingButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		59FF7DDB3B3164A998BB5413E9F76CE7 /* Pods-ColorMaskingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorMaskingButton_Example-dummy.m"; sourceTree = "<group>"; };
-		5B1A4A833A71372347E836A6CE142FB3 /* Pods-ColorMaskingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorMaskingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5DB9A8EF35EEB0ADE694337E4C2A2749 /* ColorMaskingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColorMaskingButton.modulemap; sourceTree = "<group>"; };
-		5EF42557DFC7C3B145E6D08429DB0D87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		5EFB8EA7B8A26CF792044DAC027CCA41 /* String+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FileName.swift"; path = "Sources/Quick/String+FileName.swift"; sourceTree = "<group>"; };
-		617CDDADB7C83F44D27E9213AAE046F8 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
-		629436DADF02EDDB9B0A235EC9DCEC44 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
-		62A9E6109260512922F5CBCFC2473425 /* Pods_ColorMaskingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorMaskingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63116DC4537FCDC087C5DC9CFD8FFC46 /* Pods-ColorMaskingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColorMaskingButton_Example.modulemap"; sourceTree = "<group>"; };
-		64474F8B017E3EE8DC244E320448A267 /* ColorMaskingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorMaskingButton.xcconfig; sourceTree = "<group>"; };
-		66D701AD8E030122F291C22DA7C43430 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
-		6EF45BEC800711BA7D9973B0BA4E4A1F /* PocketSVG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PocketSVG.modulemap; sourceTree = "<group>"; };
-		7783E64B0B6BDF70D8EF19D385A57A24 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
-		79076D6EA75EF7D61880F76C0B879F22 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
-		7EF35F7B5F7B3FFE56E5C21DDCCF7E29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80697A84037EFDB00338839CCFE80340 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		809A4BE4ED0273E0E4EE9A198994484A /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
-		865D6C8AF92DD2132EFE6A17B1395D2C /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
-		88CC2E64127FAC15AF246E0514701693 /* ColorMaskingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorMaskingButton.swift; sourceTree = "<group>"; };
-		8A69F5D7AF848244BF3E177AE80D9E20 /* MaskedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaskedView.swift; sourceTree = "<group>"; };
-		8B356050EFA93D480AB1DACC3C5E584B /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/Quick/QuickSpec.m; sourceTree = "<group>"; };
-		8B53BE2A0A1F9140AF09E0A8D73B39E7 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
-		8CCC1564A3A0141333ACF467D8FB1110 /* Pods-ColorMaskingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorMaskingButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D1DA847D49B5F378A0552A3268BDF43 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
-		9169B633865A55ACFFD940A348EF966B /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Sources/Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
-		928BDED91738661D5FB51EAC1024E8E4 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
-		9319CC35374152FB7BA664A3B30A7B1E /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
-		9482C0ECE6D05C964F9E053739FB0B22 /* Pods_ColorMaskingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorMaskingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97BBC002267B3CAB11AC01A10FB5CEB7 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
-		99F8CD3D0D0F4BCEBA47AA9F60C51E86 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		9CB60422440632DF134918F3C563C2AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CF4F2BE4784F4AE458B88318D3CA3DF /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Sources/Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
-		9E4B19D4D40E9204CB9EA9BAABECDCCE /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
-		A0A9ACFB26BD2D9EF5741E9A36DAAEE5 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
-		A1037C87010757CDA0D98648184CC914 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
-		A3F201F3A3C48501156E69819EE5E24A /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/Quick/QuickSpec.h; sourceTree = "<group>"; };
-		A613CA19F4E05E89397069993D29FA7D /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
-		A701F1CCDBD9AB97E23C1BE06FD2C5C2 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
-		A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A78D9205CF0F56714295580367C9DA68 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
-		B037EEDD74A7774107215054801A8E6B /* Pods-ColorMaskingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorMaskingButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		B09CD48D819AF98D75E32F902125F244 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
-		B2DF80C35F79D7B1DBFCE1162A9F62FF /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
-		B73EB204B904C5B8183290646662ECCF /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
-		B7836F7F77C6E1415C3497F5C0452EC0 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
-		B8CEE91C18F3D8EB631D4246A12E9680 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
-		BA406529F7E83359DE20E9B6B018FE0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAD68260C5AA31399E1AF775D33702D6 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
-		BBF14A65E98E988135C5FA7E61376786 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
-		BC1FEEAA6D16A60308A4A759ECE93988 /* PocketSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C466ACB42A22B555B8A24B733E70ED16 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
-		C5503436FD5F38B0DFBF941E2F3F0B58 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
-		C63195FC0E2C1E54CCB5155B17024E8E /* Pods-ColorMaskingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorMaskingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C77185C487C72FFC69EEB8608EFFDDB7 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
-		C806D466187D5E633ADA5EFBB2AC89DA /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
-		CB6C29E80FA402CDD998AA76D7A34B30 /* Pods-ColorMaskingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorMaskingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD350883ED3733E8E689C4251C5DD215 /* Pods-ColorMaskingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColorMaskingButton_Tests.modulemap"; sourceTree = "<group>"; };
-		CD3584A3865B38832D22F190A9CE6C49 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
-		CD5728A81FDC783FA1A676B4E318574B /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/Nimble/objc/DSL.m; sourceTree = "<group>"; };
-		CE5C286849B06479DB2FF08904FB3727 /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Sources/Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
-		D114A280D83FA1CD765851B6ABDAFDE7 /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Sources/Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
-		D11EC204CFAF057EDDD64E898ECFC236 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
-		D3958DFBB91DEDDA28BF8D443E00846F /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
-		D47B9D27D5B4D178D7A21A81D0DE73CB /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
-		D4F0A1556FE9FC49084E71A44A4484E7 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
-		D58FD0B74A16360AB28D93817EB82932 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		DA78261668DA55B72F20A5914D1E2944 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
-		DC128D2E47F586364EB35F458C1D9F8A /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
-		DCA9BC4A7113B5B3F808BEC0629720D2 /* PocketSVG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSVG-prefix.pch"; sourceTree = "<group>"; };
-		DD8251DB4AC7DB50CB843407775417DE /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
-		DE588BEAD51B1F3071A32A71613FD321 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
-		DEC2858207D8B8C9195F359C67E499DA /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
-		DF49E5EAD067D26795DF4D18FCEF9F89 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
-		DFBF7A4A295EBFC0BCDCB68187D8D72B /* ColorMaskingButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMaskingButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1850186E906EA420E6E76DEDD556412 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
-		E1A38C12C0EFF6CE64060D921765092A /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
-		E313757751A8D7B2C3BE0DF9D10EBDEB /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
-		F11973B06D1CFCE6FEF7D3A3690735EC /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/Nimble/objc/DSL.h; sourceTree = "<group>"; };
-		F2CA50285D5CBBB72BF3E3E3256D37CA /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
-		F7EDBD18172229F9EBCCD4316EE2B23D /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
-		F91D0EF69141A12318E6C3021908698C /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
-		FA7CD8AECBDC6E6C844CCD7FD0979B0D /* ColorMaskingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorMaskingButton-umbrella.h"; sourceTree = "<group>"; };
-		FAA374D06BDEC227990FD46F3BEE4017 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
-		FEB8C3B942083086D15972354F9532E9 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
-		FF1E585898FB8D48DEF3DC4A503F505D /* ColorMaskingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorMaskingButton-dummy.m"; sourceTree = "<group>"; };
-		FFB6C312507B710BA49D4526C58BDFDA /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		16A3C8CDE54A30A916671387E12FE911 /* PocketSVG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSVG-prefix.pch"; sourceTree = "<group>"; };
+		29FD3042CB469E1E7C274C81D5162661 /* ColorMaskingButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ColorMaskingButton.bundle; path = ColorMaskingButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9D74A2817FC3C6E7A0B7E15690BBC1 /* Pods_ColorMaskingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorMaskingButton_Example.framework; path = "Pods-ColorMaskingButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		338EC19298E7F44C29FD04479DEBCF70 /* Pods-ColorMaskingButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorMaskingButton_Example-resources.sh"; sourceTree = "<group>"; };
+		36133FF0C15691031116FFCB5FEADF8C /* ColorMaskingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorMaskingButton.swift; sourceTree = "<group>"; };
+		37DD514E90DE1203D1BF91E7BD0D72E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D006236FC8F2045F60606247A287AC /* ColorMaskingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ColorMaskingButton.modulemap; sourceTree = "<group>"; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D29A7F2FD6115ACE97427902F6FE1FC /* Pods-ColorMaskingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorMaskingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4369A6803C5DB2EA3153D28D54B716D8 /* ColorMaskingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorMaskingButton-umbrella.h"; sourceTree = "<group>"; };
+		5008A26A42EF125C1AB30CB82E1687FD /* ColorMaskingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorMaskingButton.framework; path = ColorMaskingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5565FF5F11A3065CE1094FC5280CB30D /* ColorMaskingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorMaskingButton-prefix.pch"; sourceTree = "<group>"; };
+		5D6DE67D6A1EE68805A54325DAA294A0 /* PocketSVG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSVG-umbrella.h"; sourceTree = "<group>"; };
+		733DC26921DA3BA89D1C6E7522FA71D2 /* ColorMaskingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorMaskingButton-dummy.m"; sourceTree = "<group>"; };
+		7702769321F77CC023A00D79CAD196DE /* Pods-ColorMaskingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorMaskingButton_Example-dummy.m"; sourceTree = "<group>"; };
+		936C21BBB7C62CEC6E01AA4CCF2808AF /* MaskedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaskedView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A657749A200F1400F3DEF25A94D1618A /* Pods-ColorMaskingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorMaskingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8BBC4AF5284FE697C813FAE618B70FA /* Pods-ColorMaskingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorMaskingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B90E8DDD7982CB228879057F73F595C7 /* PocketSVG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PocketSVG.modulemap; sourceTree = "<group>"; };
+		BC95178986A940E64C065E32F0B26B98 /* PocketSVG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PocketSVG-dummy.m"; sourceTree = "<group>"; };
+		C5000E1B404048801181514067C986F9 /* Pods-ColorMaskingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ColorMaskingButton_Example.modulemap"; sourceTree = "<group>"; };
+		C6DDC151BFA0260C3C969759EAB5DF00 /* PocketSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PocketSVG.m; sourceTree = "<group>"; };
+		CB045396DF51A3F213AA2E6C1978B850 /* Pods-ColorMaskingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorMaskingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1AC131A5F381B09A7126E3DBA2A78A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D274648A51B195B7462A5BAB1D8E184D /* PocketSVG.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PocketSVG.xcconfig; sourceTree = "<group>"; };
+		D85AFFD802613478F89EDDBD04F60CCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97AA073B6691E92E772F8231CD09FC1 /* Pods-ColorMaskingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorMaskingButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		DB66E4752C03072AA842D97AD3509F14 /* PocketSVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PocketSVG.h; sourceTree = "<group>"; };
+		DD26DD457EA2F964EFA8A8298E52DAEF /* Pods-ColorMaskingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorMaskingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE417FF50DEF162431382EC45F7B85F5 /* ColorMaskingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorMaskingButton.xcconfig; sourceTree = "<group>"; };
+		F6D2765A438AB03A0A8D8042B7DDA771 /* ResourceBundle-ColorMaskingButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ColorMaskingButton-Info.plist"; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FC03E4AA66471CF7EB80018C49953E91 /* PocketSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PocketSVG.framework; path = PocketSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BB2EB656335EB9149A1AD64857AD416 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F6EC40616D88F861C31487479FCE121 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AAD499916308E76312A3FDF7703E2DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90C663A618BEC06349C95E6B9AF7B408 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F4EB78931BF05ED1918254045FF8152 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DF8A5233E48BD9B68BF4F291222567E /* Foundation.framework in Frameworks */,
-				792A355081D4A910795DFA902EF64544 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F167832D2B2E988E2554FC2940DC430 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B08A96752A874A63402E40D22D4F244 /* Foundation.framework in Frameworks */,
-				30042AD82B065391DB750851D39BC7B1 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2D4CBA2FD276A3A7C1BD81DFE7A9F44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				200B53B04AE7192A1F9D0E0A88D9FBF1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFECD88E6ED944EE4E7A961270924CDA /* Frameworks */ = {
+		01936C5E00E2A3ACE59BD31590885EF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEF785D316E836E93C09637D3A3082CA /* Frameworks */ = {
+		0B5CE17C2DA93334D8F100508339CBE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D986E647D70C76E49A2E7B0070FE910D /* Foundation.framework in Frameworks */,
+				3EABFCA1830FD7B80D6E8F6F02021AC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE69CABDF1F0022A77C6C93C8D9DE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F8B9F9EF32C72E0C2D2FAEAC5BF9D2 /* Foundation.framework in Frameworks */,
+				181F055C60A2CF3348BA46E26D3C3C2A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5950F0B7634069785C1C1E31F29FE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB6FEA97ED76E412BA7804BE461B520 /* Foundation.framework in Frameworks */,
+				48E30E9ED7216216FC149788A5D7C93B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DFAE49238F4A612573BF0729E11BAC3 /* Pods-ColorMaskingButton_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				09FAC6D83AB981758DD41A9E38B478F5 /* Info.plist */,
-				CD350883ED3733E8E689C4251C5DD215 /* Pods-ColorMaskingButton_Tests.modulemap */,
-				CB6C29E80FA402CDD998AA76D7A34B30 /* Pods-ColorMaskingButton_Tests-acknowledgements.markdown */,
-				2E53A6C9DDC95DF634C695A102A8B63D /* Pods-ColorMaskingButton_Tests-acknowledgements.plist */,
-				B037EEDD74A7774107215054801A8E6B /* Pods-ColorMaskingButton_Tests-dummy.m */,
-				071965B4B77DDAB29B0811E4B0C95088 /* Pods-ColorMaskingButton_Tests-frameworks.sh */,
-				59DACC89661EA9A6F1E0F304FDE4EC1C /* Pods-ColorMaskingButton_Tests-resources.sh */,
-				3660876A7AA3AFC3724029D214F0574F /* Pods-ColorMaskingButton_Tests-umbrella.h */,
-				C63195FC0E2C1E54CCB5155B17024E8E /* Pods-ColorMaskingButton_Tests.debug.xcconfig */,
-				0F90625192BF87285A2F0C3003BDD264 /* Pods-ColorMaskingButton_Tests.release.xcconfig */,
-			);
-			name = "Pods-ColorMaskingButton_Tests";
-			path = "Target Support Files/Pods-ColorMaskingButton_Tests";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43A8B7AB0E905FA84A436AAFDCBBA43F /* iOS */,
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1762783504A2D25298EFD77502DD4BFC /* Support Files */ = {
+		210529AC2B81812F145A7DE83F46411E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15CA845A679AFC1FA512D0AC9F95D3E6 /* Info.plist */,
-				02968DC3E1227C08E084BEFC233A9E49 /* Nimble.modulemap */,
-				FEB8C3B942083086D15972354F9532E9 /* Nimble.xcconfig */,
-				A0A9ACFB26BD2D9EF5741E9A36DAAEE5 /* Nimble-dummy.m */,
-				47603618C6E4A209DE3CAF24F47F4DBD /* Nimble-prefix.pch */,
-				9E4B19D4D40E9204CB9EA9BAABECDCCE /* Nimble-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Nimble";
-			sourceTree = "<group>";
-		};
-		1E662E5CE7D5EFCC8F5B992E5E0FF5DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				34A67F10F9682165A0AA59F14C766243 /* Info.plist */,
-				45865FE5072D67D82E417E3DAE891D2D /* Quick.modulemap */,
-				4E31C95659E8AA41CFC8487E8DF6D34A /* Quick.xcconfig */,
-				DE588BEAD51B1F3071A32A71613FD321 /* Quick-dummy.m */,
-				865D6C8AF92DD2132EFE6A17B1395D2C /* Quick-prefix.pch */,
-				E1A38C12C0EFF6CE64060D921765092A /* Quick-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Quick";
-			sourceTree = "<group>";
-		};
-		27A8057D763D5C116950160EE2C3543A /* Nimble */ = {
-			isa = PBXGroup;
-			children = (
-				CD3584A3865B38832D22F190A9CE6C49 /* AdapterProtocols.swift */,
-				2CF9739391D8801709101EBA505160AA /* AllPass.swift */,
-				66D701AD8E030122F291C22DA7C43430 /* AssertionDispatcher.swift */,
-				79076D6EA75EF7D61880F76C0B879F22 /* AssertionRecorder.swift */,
-				A78D9205CF0F56714295580367C9DA68 /* Async.swift */,
-				A613CA19F4E05E89397069993D29FA7D /* AsyncMatcherWrapper.swift */,
-				09323EFE3CAE62749E743F22ECCE2FDD /* BeAKindOf.swift */,
-				B73EB204B904C5B8183290646662ECCF /* BeAnInstanceOf.swift */,
-				3A27E3F722BA2A591032E4890F3D4CCF /* BeCloseTo.swift */,
-				8D1DA847D49B5F378A0552A3268BDF43 /* BeEmpty.swift */,
-				B8CEE91C18F3D8EB631D4246A12E9680 /* BeginWith.swift */,
-				BBF14A65E98E988135C5FA7E61376786 /* BeGreaterThan.swift */,
-				F91D0EF69141A12318E6C3021908698C /* BeGreaterThanOrEqualTo.swift */,
-				928BDED91738661D5FB51EAC1024E8E4 /* BeIdenticalTo.swift */,
-				C77185C487C72FFC69EEB8608EFFDDB7 /* BeLessThan.swift */,
-				FAA374D06BDEC227990FD46F3BEE4017 /* BeLessThanOrEqual.swift */,
-				B09CD48D819AF98D75E32F902125F244 /* BeLogical.swift */,
-				A1037C87010757CDA0D98648184CC914 /* BeNil.swift */,
-				B7836F7F77C6E1415C3497F5C0452EC0 /* BeVoid.swift */,
-				173BFBE271CBF5E54EC4726C5A1E8E4F /* Contain.swift */,
-				4553A401604D048B825D5E143BD82337 /* CurrentTestCaseTracker.m */,
-				F11973B06D1CFCE6FEF7D3A3690735EC /* DSL.h */,
-				CD5728A81FDC783FA1A676B4E318574B /* DSL.m */,
-				97BBC002267B3CAB11AC01A10FB5CEB7 /* DSL.swift */,
-				033DD8A742C0944BEF8DEB3A6296947D /* DSL+Wait.swift */,
-				99F8CD3D0D0F4BCEBA47AA9F60C51E86 /* EndWith.swift */,
-				F2CA50285D5CBBB72BF3E3E3256D37CA /* Equal.swift */,
-				57E77C5D07846B73F950B967761B19DE /* ExceptionCapture.swift */,
-				D4F0A1556FE9FC49084E71A44A4484E7 /* Expectation.swift */,
-				3B9140781F6E0F5E859361F670F48384 /* Expression.swift */,
-				1AE395499A7BA43058922F9C8D0625E3 /* FailureMessage.swift */,
-				DF49E5EAD067D26795DF4D18FCEF9F89 /* Functional.swift */,
-				3D6F146AAEB268F308FD5788E3508594 /* HaveCount.swift */,
-				0CB11B01A620BBDFD35E43423492A67E /* Match.swift */,
-				629436DADF02EDDB9B0A235EC9DCEC44 /* MatcherFunc.swift */,
-				20E93BA4D002F72BA4C6A91CBC52534C /* MatcherProtocols.swift */,
-				0AAC9D492121DF6E2DBBD15D78D95665 /* Nimble.h */,
-				8B53BE2A0A1F9140AF09E0A8D73B39E7 /* NimbleEnvironment.swift */,
-				DA78261668DA55B72F20A5914D1E2944 /* NimbleXCTestHandler.swift */,
-				617CDDADB7C83F44D27E9213AAE046F8 /* NMBExceptionCapture.h */,
-				A701F1CCDBD9AB97E23C1BE06FD2C5C2 /* NMBExceptionCapture.m */,
-				9CF4F2BE4784F4AE458B88318D3CA3DF /* ObjCExpectation.swift */,
-				D114A280D83FA1CD765851B6ABDAFDE7 /* ObjCMatcher.swift */,
-				0AF73E56188C036BD1868CF9E30B9CED /* PostNotification.swift */,
-				809A4BE4ED0273E0E4EE9A198994484A /* RaisesException.swift */,
-				485CAE3B2F88610803F6668379ABBBEA /* SatisfyAnyOf.swift */,
-				D58FD0B74A16360AB28D93817EB82932 /* SourceLocation.swift */,
-				DD8251DB4AC7DB50CB843407775417DE /* Stringers.swift */,
-				C5503436FD5F38B0DFBF941E2F3F0B58 /* ThrowError.swift */,
-				1762783504A2D25298EFD77502DD4BFC /* Support Files */,
-			);
-			path = Nimble;
-			sourceTree = "<group>";
-		};
-		43A8B7AB0E905FA84A436AAFDCBBA43F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A7623235BB37EFCB879E97E6872B24C7 /* Foundation.framework */,
-				5EF42557DFC7C3B145E6D08429DB0D87 /* QuartzCore.framework */,
-				019FD564423A52818A80CCB6B6519E15 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4C5E5D0A14AC7CF73BB709062F9209E1 /* PocketSVG */ = {
-			isa = PBXGroup;
-			children = (
-				196E5C9C48543A8548A0E31BD2EDD9F9 /* PocketSVG.h */,
-				413CAA2D8D8879995FD8283B30D0CEC7 /* PocketSVG.m */,
-				BD2E8C86EF728AF2E52A19552216BC5A /* Support Files */,
-			);
-			path = PocketSVG;
-			sourceTree = "<group>";
-		};
-		4DD8FD46B45956FED13ED3E7B740C5AF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5DB9A8EF35EEB0ADE694337E4C2A2749 /* ColorMaskingButton.modulemap */,
-				64474F8B017E3EE8DC244E320448A267 /* ColorMaskingButton.xcconfig */,
-				FF1E585898FB8D48DEF3DC4A503F505D /* ColorMaskingButton-dummy.m */,
-				2534F02154099F19B1EAF56F8C179E5A /* ColorMaskingButton-prefix.pch */,
-				FA7CD8AECBDC6E6C844CCD7FD0979B0D /* ColorMaskingButton-umbrella.h */,
-				7EF35F7B5F7B3FFE56E5C21DDCCF7E29 /* Info.plist */,
+				38D006236FC8F2045F60606247A287AC /* ColorMaskingButton.modulemap */,
+				DE417FF50DEF162431382EC45F7B85F5 /* ColorMaskingButton.xcconfig */,
+				733DC26921DA3BA89D1C6E7522FA71D2 /* ColorMaskingButton-dummy.m */,
+				5565FF5F11A3065CE1094FC5280CB30D /* ColorMaskingButton-prefix.pch */,
+				4369A6803C5DB2EA3153D28D54B716D8 /* ColorMaskingButton-umbrella.h */,
+				37DD514E90DE1203D1BF91E7BD0D72E0 /* Info.plist */,
+				F6D2765A438AB03A0A8D8042B7DDA771 /* ResourceBundle-ColorMaskingButton-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ColorMaskingButton";
 			sourceTree = "<group>";
 		};
-		50140268F571B2F4F2C6AA27D106F070 /* Development Pods */ = {
+		2891B6FE1738CAF27A933AD499F886FE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A03A5BCBDAC2BB440C7A6608719DDAC1 /* ColorMaskingButton */,
+				36133FF0C15691031116FFCB5FEADF8C /* ColorMaskingButton.swift */,
+				936C21BBB7C62CEC6E01AA4CCF2808AF /* MaskedView.swift */,
 			);
-			name = "Development Pods";
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		720DE2ABBC6EBB43BF053FF44B218BF7 /* Pods-ColorMaskingButton_Example */ = {
+		3F9E9189E5DA4677BBE571C81A84748C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA406529F7E83359DE20E9B6B018FE0C /* Info.plist */,
-				63116DC4537FCDC087C5DC9CFD8FFC46 /* Pods-ColorMaskingButton_Example.modulemap */,
-				5B1A4A833A71372347E836A6CE142FB3 /* Pods-ColorMaskingButton_Example-acknowledgements.markdown */,
-				20A63B264075F8F0E6C2892C6D93AA47 /* Pods-ColorMaskingButton_Example-acknowledgements.plist */,
-				59FF7DDB3B3164A998BB5413E9F76CE7 /* Pods-ColorMaskingButton_Example-dummy.m */,
-				35470C2B55705BBE7F73FE5AE4F0E0C0 /* Pods-ColorMaskingButton_Example-frameworks.sh */,
-				27B5A94F2525911F6438CA511DD8666D /* Pods-ColorMaskingButton_Example-resources.sh */,
-				8CCC1564A3A0141333ACF467D8FB1110 /* Pods-ColorMaskingButton_Example-umbrella.h */,
-				0D5B5251C2BECD399E9298D6540EC142 /* Pods-ColorMaskingButton_Example.debug.xcconfig */,
-				133F769BAF622FBB5C9223CC5CA1D755 /* Pods-ColorMaskingButton_Example.release.xcconfig */,
-			);
-			name = "Pods-ColorMaskingButton_Example";
-			path = "Target Support Files/Pods-ColorMaskingButton_Example";
-			sourceTree = "<group>";
-		};
-		79DA021BEC3179C84E86519AC9B93464 /* Quick */ = {
-			isa = PBXGroup;
-			children = (
-				30AE1AC2DBBDA7176778FED2D7C5BDAB /* Callsite.swift */,
-				24C0B3CE364175BCF7AE9D23353472A0 /* Closures.swift */,
-				0792B45B554DB454D23B5A632A7A323E /* Configuration.swift */,
-				FFB6C312507B710BA49D4526C58BDFDA /* DSL.swift */,
-				D47B9D27D5B4D178D7A21A81D0DE73CB /* ErrorUtility.swift */,
-				C806D466187D5E633ADA5EFBB2AC89DA /* Example.swift */,
-				DC128D2E47F586364EB35F458C1D9F8A /* ExampleGroup.swift */,
-				E313757751A8D7B2C3BE0DF9D10EBDEB /* ExampleHooks.swift */,
-				D11EC204CFAF057EDDD64E898ECFC236 /* ExampleMetadata.swift */,
-				DEC2858207D8B8C9195F359C67E499DA /* Filter.swift */,
-				F7EDBD18172229F9EBCCD4316EE2B23D /* HooksPhase.swift */,
-				2724E7A2246B43EDF63BA2B8183F3C7B /* NSBundle+CurrentTestBundle.swift */,
-				CE5C286849B06479DB2FF08904FB3727 /* NSString+QCKSelectorName.h */,
-				9169B633865A55ACFFD940A348EF966B /* NSString+QCKSelectorName.m */,
-				9319CC35374152FB7BA664A3B30A7B1E /* QCKDSL.h */,
-				D3958DFBB91DEDDA28BF8D443E00846F /* QCKDSL.m */,
-				34D04E4E2EC4747E64CA9658CF5DD9E1 /* Quick.h */,
-				BAD68260C5AA31399E1AF775D33702D6 /* QuickConfiguration.h */,
-				7783E64B0B6BDF70D8EF19D385A57A24 /* QuickConfiguration.m */,
-				B2DF80C35F79D7B1DBFCE1162A9F62FF /* QuickSelectedTestSuiteBuilder.swift */,
-				A3F201F3A3C48501156E69819EE5E24A /* QuickSpec.h */,
-				8B356050EFA93D480AB1DACC3C5E584B /* QuickSpec.m */,
-				537D7B1012D3642F7E0407B49902678A /* QuickTestSuite.swift */,
-				5EFB8EA7B8A26CF792044DAC027CCA41 /* String+FileName.swift */,
-				2223BE49FB700B7F8835C90D4B01D2F1 /* SuiteHooks.swift */,
-				3F8EEB500375A1DBE261AF198238B552 /* World.h */,
-				C466ACB42A22B555B8A24B733E70ED16 /* World.swift */,
-				11FE584684FE05C5ED9CE94A6D07526F /* World+DSL.h */,
-				E1850186E906EA420E6E76DEDD556412 /* World+DSL.swift */,
-				4FC74626A431489C10050F369326977A /* XCTestSuite+QuickTestSuiteBuilder.m */,
-				1E662E5CE7D5EFCC8F5B992E5E0FF5DA /* Support Files */,
-			);
-			path = Quick;
-			sourceTree = "<group>";
-		};
-		7D09E71FE4B67252067299812E6D7B4E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EEF216FE08DFC3FD5B0A6A47B4695C4A /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				50140268F571B2F4F2C6AA27D106F070 /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				8A42FF6E10E28BEA1B8DCDB4F6F66C92 /* Pods */,
-				98F266A47345A771BCE12E521AD3A9B4 /* Products */,
-				E0178DBCFA415E05BBDD4D151BE8F684 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8A42FF6E10E28BEA1B8DCDB4F6F66C92 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				27A8057D763D5C116950160EE2C3543A /* Nimble */,
-				4C5E5D0A14AC7CF73BB709062F9209E1 /* PocketSVG */,
-				79DA021BEC3179C84E86519AC9B93464 /* Quick */,
+				7D55BC63DEDF991D53C22B6B54D93144 /* PocketSVG */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		98F266A47345A771BCE12E521AD3A9B4 /* Products */ = {
+		50140268F571B2F4F2C6AA27D106F070 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFBF7A4A295EBFC0BCDCB68187D8D72B /* ColorMaskingButton.bundle */,
-				24DA673CB8BDB5FBF8CF9BAF0C3E3A18 /* ColorMaskingButton.framework */,
-				19F0883254BFFB54FDBFCDC86E0DD3DC /* Nimble.framework */,
-				BC1FEEAA6D16A60308A4A759ECE93988 /* PocketSVG.framework */,
-				9482C0ECE6D05C964F9E053739FB0B22 /* Pods_ColorMaskingButton_Example.framework */,
-				62A9E6109260512922F5CBCFC2473425 /* Pods_ColorMaskingButton_Tests.framework */,
-				80697A84037EFDB00338839CCFE80340 /* Quick.framework */,
+				87BC30AAEB1B04E4151B4E486A53FCC3 /* ColorMaskingButton */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A03A5BCBDAC2BB440C7A6608719DDAC1 /* ColorMaskingButton */ = {
+		6FA8825B2F2E9F9C50E73BD573969F4F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D09E71FE4B67252067299812E6D7B4E /* Pod */,
-				4DD8FD46B45956FED13ED3E7B740C5AF /* Support Files */,
-			);
-			name = ColorMaskingButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BD2E8C86EF728AF2E52A19552216BC5A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9CB60422440632DF134918F3C563C2AE /* Info.plist */,
-				6EF45BEC800711BA7D9973B0BA4E4A1F /* PocketSVG.modulemap */,
-				1E068B0390353549E9FD930CDEF1441F /* PocketSVG.xcconfig */,
-				1144BD8E0FA98174831C3B93CDF86C09 /* PocketSVG-dummy.m */,
-				DCA9BC4A7113B5B3F808BEC0629720D2 /* PocketSVG-prefix.pch */,
-				18F542D3877EDE4C6E6491301EC73FEF /* PocketSVG-umbrella.h */,
+				D1AC131A5F381B09A7126E3DBA2A78A1 /* Info.plist */,
+				B90E8DDD7982CB228879057F73F595C7 /* PocketSVG.modulemap */,
+				D274648A51B195B7462A5BAB1D8E184D /* PocketSVG.xcconfig */,
+				BC95178986A940E64C065E32F0B26B98 /* PocketSVG-dummy.m */,
+				16A3C8CDE54A30A916671387E12FE911 /* PocketSVG-prefix.pch */,
+				5D6DE67D6A1EE68805A54325DAA294A0 /* PocketSVG-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PocketSVG";
 			sourceTree = "<group>";
 		};
-		E0178DBCFA415E05BBDD4D151BE8F684 /* Targets Support Files */ = {
+		7AAF746AEE52AAE8ABAF62856863D883 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				720DE2ABBC6EBB43BF053FF44B218BF7 /* Pods-ColorMaskingButton_Example */,
-				0DFAE49238F4A612573BF0729E11BAC3 /* Pods-ColorMaskingButton_Tests */,
+				2891B6FE1738CAF27A933AD499F886FE /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7D55BC63DEDF991D53C22B6B54D93144 /* PocketSVG */ = {
+			isa = PBXGroup;
+			children = (
+				DB66E4752C03072AA842D97AD3509F14 /* PocketSVG.h */,
+				C6DDC151BFA0260C3C969759EAB5DF00 /* PocketSVG.m */,
+				6FA8825B2F2E9F9C50E73BD573969F4F /* Support Files */,
+			);
+			name = PocketSVG;
+			path = PocketSVG;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				50140268F571B2F4F2C6AA27D106F070 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				3F9E9189E5DA4677BBE571C81A84748C /* Pods */,
+				9816B54F9ACB84BF14F027F008DABF10 /* Products */,
+				82F0B04BD72F37D6970709D1406CF412 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82F0B04BD72F37D6970709D1406CF412 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9A9AAA27A42B4C0269D77514EFFBA /* Pods-ColorMaskingButton_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EEF216FE08DFC3FD5B0A6A47B4695C4A /* Classes */ = {
+		87BC30AAEB1B04E4151B4E486A53FCC3 /* ColorMaskingButton */ = {
 			isa = PBXGroup;
 			children = (
-				88CC2E64127FAC15AF246E0514701693 /* ColorMaskingButton.swift */,
-				8A69F5D7AF848244BF3E177AE80D9E20 /* MaskedView.swift */,
+				7AAF746AEE52AAE8ABAF62856863D883 /* Pod */,
+				210529AC2B81812F145A7DE83F46411E /* Support Files */,
 			);
-			path = Classes;
+			name = ColorMaskingButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9816B54F9ACB84BF14F027F008DABF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FD3042CB469E1E7C274C81D5162661 /* ColorMaskingButton.bundle */,
+				5008A26A42EF125C1AB30CB82E1687FD /* ColorMaskingButton.framework */,
+				FC03E4AA66471CF7EB80018C49953E91 /* PocketSVG.framework */,
+				2B9D74A2817FC3C6E7A0B7E15690BBC1 /* Pods_ColorMaskingButton_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B9A9AAA27A42B4C0269D77514EFFBA /* Pods-ColorMaskingButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D85AFFD802613478F89EDDBD04F60CCB /* Info.plist */,
+				C5000E1B404048801181514067C986F9 /* Pods-ColorMaskingButton_Example.modulemap */,
+				DD26DD457EA2F964EFA8A8298E52DAEF /* Pods-ColorMaskingButton_Example-acknowledgements.markdown */,
+				A657749A200F1400F3DEF25A94D1618A /* Pods-ColorMaskingButton_Example-acknowledgements.plist */,
+				7702769321F77CC023A00D79CAD196DE /* Pods-ColorMaskingButton_Example-dummy.m */,
+				3D29A7F2FD6115ACE97427902F6FE1FC /* Pods-ColorMaskingButton_Example-frameworks.sh */,
+				338EC19298E7F44C29FD04479DEBCF70 /* Pods-ColorMaskingButton_Example-resources.sh */,
+				D97AA073B6691E92E772F8231CD09FC1 /* Pods-ColorMaskingButton_Example-umbrella.h */,
+				CB045396DF51A3F213AA2E6C1978B850 /* Pods-ColorMaskingButton_Example.debug.xcconfig */,
+				B8BBC4AF5284FE697C813FAE618B70FA /* Pods-ColorMaskingButton_Example.release.xcconfig */,
+			);
+			name = "Pods-ColorMaskingButton_Example";
+			path = "Target Support Files/Pods-ColorMaskingButton_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05528560EA8B071B809B962CDA8BE260 /* Headers */ = {
+		872F7E8C20E0574336B9F890ACB52459 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7A5802F63927E0F710A0F549359C280 /* PocketSVG-umbrella.h in Headers */,
-				91DDE898AB02B3A5FA8CDAC36F88E1B2 /* PocketSVG.h in Headers */,
+				968E5FACDFE8671D94319E4D508EB457 /* ColorMaskingButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B07554C89DC71F8D08B0C798672F94B /* Headers */ = {
+		9D72168A818627B8854C89D56C000F78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29087D65C2CE2997A8665807302FA837 /* ColorMaskingButton-umbrella.h in Headers */,
+				6C39A651D0E4CBFC3BE33BFF5CF533D1 /* Pods-ColorMaskingButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56651AC7E3F7B2CDCFEEB8325476F8A3 /* Headers */ = {
+		A7AC2A81C3FC6B6BCA75C71E75F803CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */,
-				E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */,
-				D41F628A81153A978EB209E4FE925700 /* Nimble.h in Headers */,
-				86FB708FCFE6121A82BB09E5ADD84554 /* NMBExceptionCapture.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FC6ABCBB16F7E858FEE2DD3A1A5BABE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F1DEFEA0CCE9C66219F581F67861644 /* Pods-ColorMaskingButton_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D576830911F039590FF92CCCD9576A5C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A58C1F3A2F88A9374B60E28AE9891FB2 /* Pods-ColorMaskingButton_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D98BE1D13ACB81FF9B80600942C9391C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60CCD0120FFA8193572FC83DE2D3F66F /* NSString+QCKSelectorName.h in Headers */,
-				0FB7E115C3A30D94DC43D57C257126AF /* QCKDSL.h in Headers */,
-				4227761D5137686F04BC556842D60425 /* Quick-umbrella.h in Headers */,
-				B0A22C72986CFF77E06E48F57B1AAFD4 /* Quick.h in Headers */,
-				E2D49B342F601D6807A5BC24442804C5 /* QuickConfiguration.h in Headers */,
-				8CE8940EBC13854C4A44AA6DFCC3C83F /* QuickSpec.h in Headers */,
-				5ABF60D9A2632DD0A49F73F4FE2B6371 /* World+DSL.h in Headers */,
-				B7CA1A5500AADF975C9EA06E7B27ED8B /* World.h in Headers */,
+				DCAF449C87464B5EE62EBDC57E046285 /* PocketSVG-umbrella.h in Headers */,
+				ABFC459257A053FFCF497F90B9F26EBA /* PocketSVG.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		197F8364933AF11FA60C223B6E6D6406 /* ColorMaskingButton-ColorMaskingButton */ = {
+		1F6E062486EF5836846A4E0088931CCA /* Pods-ColorMaskingButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F962E55A718C4D40B6F9C57E9E3669F5 /* Build configuration list for PBXNativeTarget "ColorMaskingButton-ColorMaskingButton" */;
+			buildConfigurationList = 99BC23E0069B37CDF73CC2404EE441C1 /* Build configuration list for PBXNativeTarget "Pods-ColorMaskingButton_Example" */;
 			buildPhases = (
-				F5F8AC7F1F5C67206EDA0A2E8BC68AB6 /* Sources */,
-				EFECD88E6ED944EE4E7A961270924CDA /* Frameworks */,
-				4A4D494881A86036A3023947CD58D756 /* Resources */,
+				D436C0B87398F0DF4D0071055DC573B7 /* Sources */,
+				0B5CE17C2DA93334D8F100508339CBE9 /* Frameworks */,
+				9D72168A818627B8854C89D56C000F78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E246110C16B86451E142015467697444 /* PBXTargetDependency */,
+				5C03AC8B7A72238F723F8A78E5E00593 /* PBXTargetDependency */,
+			);
+			name = "Pods-ColorMaskingButton_Example";
+			productName = "Pods-ColorMaskingButton_Example";
+			productReference = 2B9D74A2817FC3C6E7A0B7E15690BBC1 /* Pods_ColorMaskingButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26AD0DD35ABA0534502486165D67CA02 /* ColorMaskingButton-ColorMaskingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D0FD9F1C9929BD3A5076A32AC4FEEC /* Build configuration list for PBXNativeTarget "ColorMaskingButton-ColorMaskingButton" */;
+			buildPhases = (
+				BA0664367EFC335F2BC4147590E9F1C0 /* Sources */,
+				01936C5E00E2A3ACE59BD31590885EF8 /* Frameworks */,
+				3A7B60208D0CDC86C373965260BA4DEE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -734,53 +340,16 @@
 			);
 			name = "ColorMaskingButton-ColorMaskingButton";
 			productName = "ColorMaskingButton-ColorMaskingButton";
-			productReference = DFBF7A4A295EBFC0BCDCB68187D8D72B /* ColorMaskingButton.bundle */;
+			productReference = 29FD3042CB469E1E7C274C81D5162661 /* ColorMaskingButton.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		2DC8A02D4C339269544B51F8984506BE /* Pods-ColorMaskingButton_Tests */ = {
+		4A3486F3CC69B540784D2B9698B9752D /* PocketSVG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0887882FAA5898AFE8307064EC9788C7 /* Build configuration list for PBXNativeTarget "Pods-ColorMaskingButton_Tests" */;
+			buildConfigurationList = 5FC74EBB9F7AB44D2AFA7E47AB824EC7 /* Build configuration list for PBXNativeTarget "PocketSVG" */;
 			buildPhases = (
-				9A136745AAD821816C47E1437B4C6BCF /* Sources */,
-				1BB2EB656335EB9149A1AD64857AD416 /* Frameworks */,
-				D576830911F039590FF92CCCD9576A5C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3102A261DCBFFDF02A7130D04DBB8AA /* PBXTargetDependency */,
-				2850239E4C0D0337561DEC6577962D05 /* PBXTargetDependency */,
-				B57B5DA0EAAE8406CE0703ACAD0ABF51 /* PBXTargetDependency */,
-			);
-			name = "Pods-ColorMaskingButton_Tests";
-			productName = "Pods-ColorMaskingButton_Tests";
-			productReference = 62A9E6109260512922F5CBCFC2473425 /* Pods_ColorMaskingButton_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		459671D4DFD32A3505F55B8405B246C1 /* Quick */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4EB6720AEB14C1282CAA86EFDBDD824 /* Build configuration list for PBXNativeTarget "Quick" */;
-			buildPhases = (
-				7A96928CE6DEE1EF20E7A09D2CB9FEEB /* Sources */,
-				8F167832D2B2E988E2554FC2940DC430 /* Frameworks */,
-				D98BE1D13ACB81FF9B80600942C9391C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Quick;
-			productName = Quick;
-			productReference = 80697A84037EFDB00338839CCFE80340 /* Quick.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		539AB1A6D59B64ED6715FB2CEEDDEDA9 /* PocketSVG */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45DBF0329BBF62E650648B95D493719E /* Build configuration list for PBXNativeTarget "PocketSVG" */;
-			buildPhases = (
-				ECD22B5EBAA4AF97094C687937C20C9C /* Sources */,
-				6F4EB78931BF05ED1918254045FF8152 /* Frameworks */,
-				05528560EA8B071B809B962CDA8BE260 /* Headers */,
+				D1668EAC6AF352C947CE583380368566 /* Sources */,
+				D5950F0B7634069785C1C1E31F29FE5C /* Frameworks */,
+				A7AC2A81C3FC6B6BCA75C71E75F803CD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -788,62 +357,26 @@
 			);
 			name = PocketSVG;
 			productName = PocketSVG;
-			productReference = BC1FEEAA6D16A60308A4A759ECE93988 /* PocketSVG.framework */;
+			productReference = FC03E4AA66471CF7EB80018C49953E91 /* PocketSVG.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC8A6C503D10C9FDCA79E1F74C735CE9 /* Pods-ColorMaskingButton_Example */ = {
+		BC061987F86372B7E62F9355B67C8BAF /* ColorMaskingButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01E3DE59CCDDD5E9A58967EC6B653A84 /* Build configuration list for PBXNativeTarget "Pods-ColorMaskingButton_Example" */;
+			buildConfigurationList = 35F8CF8BE86B44AA39BC406DB5B2DCF1 /* Build configuration list for PBXNativeTarget "ColorMaskingButton" */;
 			buildPhases = (
-				26B0330E34CC7D0742B33222C2643061 /* Sources */,
-				B2D4CBA2FD276A3A7C1BD81DFE7A9F44 /* Frameworks */,
-				5FC6ABCBB16F7E858FEE2DD3A1A5BABE /* Headers */,
+				C7C713805F48BE2F4CE57ECA291BB6D5 /* Sources */,
+				9DE69CABDF1F0022A77C6C93C8D9DE0C /* Frameworks */,
+				F87707F03954D2014CBFC9EE30371644 /* Resources */,
+				872F7E8C20E0574336B9F890ACB52459 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA511FEE436C82D367148C8E5EB759BE /* PBXTargetDependency */,
-				396ACC062E30AA4D59D9EBF3472321E9 /* PBXTargetDependency */,
-			);
-			name = "Pods-ColorMaskingButton_Example";
-			productName = "Pods-ColorMaskingButton_Example";
-			productReference = 9482C0ECE6D05C964F9E053739FB0B22 /* Pods_ColorMaskingButton_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E3212587813DC852E372C156B65F175A /* ColorMaskingButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D28C93C78736971F33C893C34A36DA7 /* Build configuration list for PBXNativeTarget "ColorMaskingButton" */;
-			buildPhases = (
-				B628E4C7E998081AE8A1F728ED8C425A /* Sources */,
-				6AAD499916308E76312A3FDF7703E2DD /* Frameworks */,
-				9CFF2C632A55C15DD02AC50980BB784E /* Resources */,
-				1B07554C89DC71F8D08B0C798672F94B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91F389AD8D328F867B2D7C89C9B462F0 /* PBXTargetDependency */,
+				1BDA48884B49214C114CA08BBA96154A /* PBXTargetDependency */,
 			);
 			name = ColorMaskingButton;
 			productName = ColorMaskingButton;
-			productReference = 24DA673CB8BDB5FBF8CF9BAF0C3E3A18 /* ColorMaskingButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE57A1C8E467D246D7D1BCB203A09DC /* Build configuration list for PBXNativeTarget "Nimble" */;
-			buildPhases = (
-				2823BDA58F2F74DEAB39C2F345AA07A1 /* Sources */,
-				FEF785D316E836E93C09637D3A3082CA /* Frameworks */,
-				56651AC7E3F7B2CDCFEEB8325476F8A3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Nimble;
-			productName = Nimble;
-			productReference = 19F0883254BFFB54FDBFCDC86E0DD3DC /* Nimble.framework */;
+			productReference = 5008A26A42EF125C1AB30CB82E1687FD /* ColorMaskingButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -852,8 +385,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -863,228 +396,118 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 98F266A47345A771BCE12E521AD3A9B4 /* Products */;
+			productRefGroup = 9816B54F9ACB84BF14F027F008DABF10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3212587813DC852E372C156B65F175A /* ColorMaskingButton */,
-				197F8364933AF11FA60C223B6E6D6406 /* ColorMaskingButton-ColorMaskingButton */,
-				FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */,
-				539AB1A6D59B64ED6715FB2CEEDDEDA9 /* PocketSVG */,
-				CC8A6C503D10C9FDCA79E1F74C735CE9 /* Pods-ColorMaskingButton_Example */,
-				2DC8A02D4C339269544B51F8984506BE /* Pods-ColorMaskingButton_Tests */,
-				459671D4DFD32A3505F55B8405B246C1 /* Quick */,
+				BC061987F86372B7E62F9355B67C8BAF /* ColorMaskingButton */,
+				26AD0DD35ABA0534502486165D67CA02 /* ColorMaskingButton-ColorMaskingButton */,
+				4A3486F3CC69B540784D2B9698B9752D /* PocketSVG */,
+				1F6E062486EF5836846A4E0088931CCA /* Pods-ColorMaskingButton_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A4D494881A86036A3023947CD58D756 /* Resources */ = {
+		3A7B60208D0CDC86C373965260BA4DEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CFF2C632A55C15DD02AC50980BB784E /* Resources */ = {
+		F87707F03954D2014CBFC9EE30371644 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01C2AD3F7CFD54DB4BDADFEE71AADA1 /* ColorMaskingButton.bundle in Resources */,
+				D62438697659F55DDF46EC8D0CD25F56 /* ColorMaskingButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26B0330E34CC7D0742B33222C2643061 /* Sources */ = {
+		BA0664367EFC335F2BC4147590E9F1C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB5051E96B532726E84142AAB3CB6FE /* Pods-ColorMaskingButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2823BDA58F2F74DEAB39C2F345AA07A1 /* Sources */ = {
+		C7C713805F48BE2F4CE57ECA291BB6D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12E0930E021F1894B60BC6AFA8F2409 /* AdapterProtocols.swift in Sources */,
-				13CC849FA70CADF802470B6A90DCDF79 /* AllPass.swift in Sources */,
-				7CC86ABC7F4135EE12A755B023F134CE /* AssertionDispatcher.swift in Sources */,
-				4E5A721963877AA3A6AA3D80DAA4E5E9 /* AssertionRecorder.swift in Sources */,
-				7DC9B169B5FCC3EE99F6D36EC530FE1E /* Async.swift in Sources */,
-				B9D2E426B5CA226D60A78A71FA289D4C /* AsyncMatcherWrapper.swift in Sources */,
-				FB09A16A6662F2689D4AA89538DBF1C1 /* BeAKindOf.swift in Sources */,
-				A2CABD326609AD67377700A148785E09 /* BeAnInstanceOf.swift in Sources */,
-				7734BABBECE0071CF5D4430515B938BF /* BeCloseTo.swift in Sources */,
-				E9A500611CF699885DE8A6BAB4E6B392 /* BeEmpty.swift in Sources */,
-				30AACAA8D51DC8C429577D9B67BB016C /* BeginWith.swift in Sources */,
-				7EBD6B630F4536CB673DC0B455CCB16D /* BeGreaterThan.swift in Sources */,
-				8040A37FF5BBDF1964CAB8C0068ED315 /* BeGreaterThanOrEqualTo.swift in Sources */,
-				7202A0B871C57B7857341D88C2883A3A /* BeIdenticalTo.swift in Sources */,
-				7F40FC3F4DE4EA4702F41F01A12A7353 /* BeLessThan.swift in Sources */,
-				E6F6FF9554A6C7EABD6B92B691751DAD /* BeLessThanOrEqual.swift in Sources */,
-				9B5DE58927557CE87968C051D2A1C47E /* BeLogical.swift in Sources */,
-				4AF6C26A30D865059C24DC5317786B76 /* BeNil.swift in Sources */,
-				31629295E87A24C98238C66D41983C49 /* BeVoid.swift in Sources */,
-				DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */,
-				9F08F74CB8740CF0EFF26746EEB0C930 /* CurrentTestCaseTracker.m in Sources */,
-				6ED0409031540D9B2AD7B061B608B0C9 /* DSL+Wait.swift in Sources */,
-				68527A7545342CBB4F923DC8543F7B20 /* DSL.m in Sources */,
-				135B6326D35C977854AA0C12B3F6CB7D /* DSL.swift in Sources */,
-				5104AE2989305145BF446E633B567924 /* EndWith.swift in Sources */,
-				5EF5C00C6AECE1FCFFF118577817F5CE /* Equal.swift in Sources */,
-				81E6453ECE511335537301CD3B1C1B82 /* ExceptionCapture.swift in Sources */,
-				F85A9207A8601CE7F835CEC56790616F /* Expectation.swift in Sources */,
-				CD0A671D2A8DD31D50449BB358C56134 /* Expression.swift in Sources */,
-				38F5CE4B4C59A81734A93E32D35B696E /* FailureMessage.swift in Sources */,
-				63BBD83995BA60FA7D2E6AD4138C0D71 /* Functional.swift in Sources */,
-				A55EC200F57C00E9A78D8A9DA4545338 /* HaveCount.swift in Sources */,
-				03A9FD93E86C0CD07A37D7BF34A02F09 /* Match.swift in Sources */,
-				64539BE196D1741570018FFF86F14133 /* MatcherFunc.swift in Sources */,
-				91ED5B067FCA3CBD48E3114672941051 /* MatcherProtocols.swift in Sources */,
-				DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */,
-				775646739B95E828ECE349F6A39534F4 /* NimbleEnvironment.swift in Sources */,
-				C81FFEEC76399EF3C7C1EE349C810E76 /* NimbleXCTestHandler.swift in Sources */,
-				1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */,
-				486B74C8EFEB68AD25CE128F3051E432 /* ObjCExpectation.swift in Sources */,
-				800A161E9B82DEEDA41B7F1A746B24C4 /* ObjCMatcher.swift in Sources */,
-				3D1BB98DEA422D8F173613EC715488B9 /* PostNotification.swift in Sources */,
-				112614F21939902B59102E6E876ADCBC /* RaisesException.swift in Sources */,
-				415F29FE4E9D970954C46CD3CF4AE345 /* SatisfyAnyOf.swift in Sources */,
-				96ED0CCA721955637A88FE0C9737EC56 /* SourceLocation.swift in Sources */,
-				A374A2729E32469085C5025EC7115EB8 /* Stringers.swift in Sources */,
-				B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */,
+				32D62CA83014E6EAA9D53BD2B849657C /* ColorMaskingButton-dummy.m in Sources */,
+				311E41C16E330B270D1DDE3C7FB46C9D /* ColorMaskingButton.swift in Sources */,
+				6EBEA0615435E5C5EB37507446105C75 /* MaskedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A96928CE6DEE1EF20E7A09D2CB9FEEB /* Sources */ = {
+		D1668EAC6AF352C947CE583380368566 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4AF766BEFF0A491C706490CBD258427 /* Callsite.swift in Sources */,
-				47FB3D636B6415042B47789CB1D170E4 /* Closures.swift in Sources */,
-				EEACA15009CB92B5962B4D6BB89DBADC /* Configuration.swift in Sources */,
-				A1613FFFCD2144753FBA3C81BC32F217 /* DSL.swift in Sources */,
-				5A02F0CFC24E01A9DC682856EF3BC28A /* ErrorUtility.swift in Sources */,
-				E2DFC64AAFF3075390270B927E1A9485 /* Example.swift in Sources */,
-				43FEDEBBD03E9F99A528B377216091D8 /* ExampleGroup.swift in Sources */,
-				4E4B2BB330C208069EAFABF6D9740D6F /* ExampleHooks.swift in Sources */,
-				374527D2049AFD6C65C72DC706743C6D /* ExampleMetadata.swift in Sources */,
-				44DA6B8E3BFFE4F65B21C23301346813 /* Filter.swift in Sources */,
-				52F62AFB07AF1429A0578978B0820924 /* HooksPhase.swift in Sources */,
-				5969018003126E715AD4A95ECDAEF518 /* NSBundle+CurrentTestBundle.swift in Sources */,
-				7445949871333E41443893C335345D6E /* NSString+QCKSelectorName.m in Sources */,
-				35ED660803D41FC4CF3501526FA04E77 /* QCKDSL.m in Sources */,
-				C234D4A30C97DC3661F0E563D6C25603 /* Quick-dummy.m in Sources */,
-				9EE6B49B076F758C6C6A047E75BEE54B /* QuickConfiguration.m in Sources */,
-				A1D7ACDE35905FC8F38DADD11D2BDA8D /* QuickSelectedTestSuiteBuilder.swift in Sources */,
-				2F6DDEC04F90AA10638ABD887B00B0E7 /* QuickSpec.m in Sources */,
-				ED89F16DA3C99E34A26E85496611BE14 /* QuickTestSuite.swift in Sources */,
-				C672EB4F1429F71CA19CD022BA1EA687 /* String+FileName.swift in Sources */,
-				1DB74B8D4408CE139367A0C341BBF527 /* SuiteHooks.swift in Sources */,
-				1EB76AE7885CEFA9100BCAD9F72CA1FE /* World+DSL.swift in Sources */,
-				A0B9E587CC6444046DDD12B41D6439E0 /* World.swift in Sources */,
-				92C6B29842374AA2A03BAD27354C9C44 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
+				942D583AB110E3E61D79D1913988FA87 /* PocketSVG-dummy.m in Sources */,
+				6941BE1D9686A22F88801A02234FCED5 /* PocketSVG.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A136745AAD821816C47E1437B4C6BCF /* Sources */ = {
+		D436C0B87398F0DF4D0071055DC573B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7D983784C172658E38DCBDFF57A756 /* Pods-ColorMaskingButton_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B628E4C7E998081AE8A1F728ED8C425A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBB8CDE37188D4F9FEDC07505E11E120 /* ColorMaskingButton-dummy.m in Sources */,
-				AB244418323AF14AE2A60DE5B2B334F3 /* ColorMaskingButton.swift in Sources */,
-				CA74D9158631D5F90D15A654E3296E39 /* MaskedView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECD22B5EBAA4AF97094C687937C20C9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83F1AE0FAD78052439B61EA02A9726E3 /* PocketSVG-dummy.m in Sources */,
-				3A96C8266ADB925EEA6BD51F692CB5C2 /* PocketSVG.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5F8AC7F1F5C67206EDA0A2E8BC68AB6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0DA273F2854ACE2DE306E558E248696C /* Pods-ColorMaskingButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2850239E4C0D0337561DEC6577962D05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Nimble;
-			target = FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */;
-			targetProxy = E7D254BED91F5C4775AE70085DF81914 /* PBXContainerItemProxy */;
-		};
-		396ACC062E30AA4D59D9EBF3472321E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PocketSVG;
-			target = 539AB1A6D59B64ED6715FB2CEEDDEDA9 /* PocketSVG */;
-			targetProxy = 99DD21D1F43982D66F30DC4BF9C58922 /* PBXContainerItemProxy */;
-		};
-		91F389AD8D328F867B2D7C89C9B462F0 /* PBXTargetDependency */ = {
+		1BDA48884B49214C114CA08BBA96154A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ColorMaskingButton-ColorMaskingButton";
-			target = 197F8364933AF11FA60C223B6E6D6406 /* ColorMaskingButton-ColorMaskingButton */;
-			targetProxy = 5768487F4F59A7E9E37D1CC4AAAD7B70 /* PBXContainerItemProxy */;
+			target = 26AD0DD35ABA0534502486165D67CA02 /* ColorMaskingButton-ColorMaskingButton */;
+			targetProxy = 96CA1AC27E01D8F0364EA95E89E8D2BE /* PBXContainerItemProxy */;
 		};
-		AA511FEE436C82D367148C8E5EB759BE /* PBXTargetDependency */ = {
+		5C03AC8B7A72238F723F8A78E5E00593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocketSVG;
+			target = 4A3486F3CC69B540784D2B9698B9752D /* PocketSVG */;
+			targetProxy = 2B08992F9DCA28321BA3F8F42B84A6A8 /* PBXContainerItemProxy */;
+		};
+		E246110C16B86451E142015467697444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorMaskingButton;
-			target = E3212587813DC852E372C156B65F175A /* ColorMaskingButton */;
-			targetProxy = 23B2D02145014A1858AD432CA8EA9D4C /* PBXContainerItemProxy */;
-		};
-		B57B5DA0EAAE8406CE0703ACAD0ABF51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Quick;
-			target = 459671D4DFD32A3505F55B8405B246C1 /* Quick */;
-			targetProxy = E087B947E2DD5B85BF11104CE88F1011 /* PBXContainerItemProxy */;
-		};
-		D3102A261DCBFFDF02A7130D04DBB8AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ColorMaskingButton;
-			target = E3212587813DC852E372C156B65F175A /* ColorMaskingButton */;
-			targetProxy = 272175316C9DE6DEECCEE75D5CD9F256 /* PBXContainerItemProxy */;
+			target = BC061987F86372B7E62F9355B67C8BAF /* ColorMaskingButton */;
+			targetProxy = FE54823A24A1F12E9D92D01E724BBD5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		007E2CC401FB07BDFA022C6CEF877F3A /* Debug */ = {
+		23E1D09FA1AB63E7521F8E853AB9537D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E068B0390353549E9FD930CDEF1441F /* PocketSVG.xcconfig */;
+			baseConfigurationReference = D274648A51B195B7462A5BAB1D8E184D /* PocketSVG.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PocketSVG/PocketSVG-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PocketSVG/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PocketSVG/PocketSVG.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PocketSVG;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1094,44 +517,86 @@
 			};
 			name = Debug;
 		};
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		499BB1C5113E1C7D07336D6257B809A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE417FF50DEF162431382EC45F7B85F5 /* ColorMaskingButton.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorMaskingButton/ColorMaskingButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorMaskingButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorMaskingButton/ColorMaskingButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ColorMaskingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		4B7AC6C7E78C81B9C38EAC0B0BD39EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB045396DF51A3F213AA2E6C1978B850 /* Pods-ColorMaskingButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorMaskingButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorMaskingButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1139,18 +604,23 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -1161,161 +631,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		55FCF8E944964032931C4144899D4B54 /* Debug */ = {
+		5F05F5F042E8A7C89010DC2D7B79DD5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E31C95659E8AA41CFC8487E8DF6D34A /* Quick.xcconfig */;
+			baseConfigurationReference = DE417FF50DEF162431382EC45F7B85F5 /* ColorMaskingButton.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ColorMaskingButton";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6837100CA2C49ADC255B3CA8736238DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64474F8B017E3EE8DC244E320448A267 /* ColorMaskingButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ColorMaskingButton/ResourceBundle-ColorMaskingButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ColorMaskingButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		73E1B333CFA85C418C719B93105ABFE5 /* Debug */ = {
+		7054AB1D282777CF58E62F96738A2CAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63195FC0E2C1E54CCB5155B17024E8E /* Pods-ColorMaskingButton_Tests.debug.xcconfig */;
+			baseConfigurationReference = B8BBC4AF5284FE697C813FAE618B70FA /* Pods-ColorMaskingButton_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ColorMaskingButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ColorMaskingButton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		78816F317B41220A7069FBF9DA89260D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64474F8B017E3EE8DC244E320448A267 /* ColorMaskingButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ColorMaskingButton/ColorMaskingButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ColorMaskingButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ColorMaskingButton/ColorMaskingButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = ColorMaskingButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6655904CA56CBE3AFB4A2CBA8CA62EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D5B5251C2BECD399E9298D6540EC142 /* Pods-ColorMaskingButton_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorMaskingButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ColorMaskingButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B1F36FDAB0CD26871DE492F7B9248E46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133F769BAF622FBB5C9223CC5CA1D755 /* Pods-ColorMaskingButton_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ColorMaskingButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorMaskingButton_Example/Pods-ColorMaskingButton_Example.modulemap";
@@ -1327,159 +686,37 @@
 				PRODUCT_NAME = Pods_ColorMaskingButton_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BC6335F4448D890DE84916668E1210E8 /* Debug */ = {
+		9713871D9520A60B130911943F9CC413 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEB8C3B942083086D15972354F9532E9 /* Nimble.xcconfig */;
+			baseConfigurationReference = D274648A51B195B7462A5BAB1D8E184D /* PocketSVG.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Nimble;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C387A7F3FCD6F12B72F3C19C1BC4328A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F90625192BF87285A2F0C3003BDD264 /* Pods-ColorMaskingButton_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ColorMaskingButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ColorMaskingButton_Tests/Pods-ColorMaskingButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ColorMaskingButton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DBE66D32E65FFA71EB7F56474C2448E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E31C95659E8AA41CFC8487E8DF6D34A /* Quick.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E51E82DB107130C1CE6BF46773AC1677 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEB8C3B942083086D15972354F9532E9 /* Nimble.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Nimble;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EAB3BC850DD8D64C4D64A9A44A689775 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64474F8B017E3EE8DC244E320448A267 /* ColorMaskingButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ColorMaskingButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		F277DC314E4A0E01CE5C44D6A04C34A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E068B0390353549E9FD930CDEF1441F /* PocketSVG.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PocketSVG/PocketSVG-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PocketSVG/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PocketSVG/PocketSVG.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PocketSVG;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1489,105 +726,145 @@
 			};
 			name = Release;
 		};
-		F3BC381271956E2024D4F7DE7A43D979 /* Release */ = {
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64474F8B017E3EE8DC244E320448A267 /* ColorMaskingButton.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC01DA498DE2D455FDF18E1377D6C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE417FF50DEF162431382EC45F7B85F5 /* ColorMaskingButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ColorMaskingButton/ColorMaskingButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ColorMaskingButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ColorMaskingButton/ColorMaskingButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ColorMaskingButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		C2E9CF0C3F5D10FEC60827969048A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE417FF50DEF162431382EC45F7B85F5 /* ColorMaskingButton.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ColorMaskingButton";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ColorMaskingButton/ResourceBundle-ColorMaskingButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ColorMaskingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01E3DE59CCDDD5E9A58967EC6B653A84 /* Build configuration list for PBXNativeTarget "Pods-ColorMaskingButton_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6655904CA56CBE3AFB4A2CBA8CA62EA /* Debug */,
-				B1F36FDAB0CD26871DE492F7B9248E46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0887882FAA5898AFE8307064EC9788C7 /* Build configuration list for PBXNativeTarget "Pods-ColorMaskingButton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73E1B333CFA85C418C719B93105ABFE5 /* Debug */,
-				C387A7F3FCD6F12B72F3C19C1BC4328A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45DBF0329BBF62E650648B95D493719E /* Build configuration list for PBXNativeTarget "PocketSVG" */ = {
+		35F8CF8BE86B44AA39BC406DB5B2DCF1 /* Build configuration list for PBXNativeTarget "ColorMaskingButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				007E2CC401FB07BDFA022C6CEF877F3A /* Debug */,
-				F277DC314E4A0E01CE5C44D6A04C34A0 /* Release */,
+				499BB1C5113E1C7D07336D6257B809A6 /* Debug */,
+				BFC01DA498DE2D455FDF18E1377D6C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D28C93C78736971F33C893C34A36DA7 /* Build configuration list for PBXNativeTarget "ColorMaskingButton" */ = {
+		5FC74EBB9F7AB44D2AFA7E47AB824EC7 /* Build configuration list for PBXNativeTarget "PocketSVG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78816F317B41220A7069FBF9DA89260D /* Debug */,
-				F3BC381271956E2024D4F7DE7A43D979 /* Release */,
+				23E1D09FA1AB63E7521F8E853AB9537D /* Debug */,
+				9713871D9520A60B130911943F9CC413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FE57A1C8E467D246D7D1BCB203A09DC /* Build configuration list for PBXNativeTarget "Nimble" */ = {
+		99BC23E0069B37CDF73CC2404EE441C1 /* Build configuration list for PBXNativeTarget "Pods-ColorMaskingButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC6335F4448D890DE84916668E1210E8 /* Debug */,
-				E51E82DB107130C1CE6BF46773AC1677 /* Release */,
+				4B7AC6C7E78C81B9C38EAC0B0BD39EF5 /* Debug */,
+				7054AB1D282777CF58E62F96738A2CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4EB6720AEB14C1282CAA86EFDBDD824 /* Build configuration list for PBXNativeTarget "Quick" */ = {
+		D7D0FD9F1C9929BD3A5076A32AC4FEEC /* Build configuration list for PBXNativeTarget "ColorMaskingButton-ColorMaskingButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55FCF8E944964032931C4144899D4B54 /* Debug */,
-				DBE66D32E65FFA71EB7F56474C2448E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F962E55A718C4D40B6F9C57E9E3669F5 /* Build configuration list for PBXNativeTarget "ColorMaskingButton-ColorMaskingButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6837100CA2C49ADC255B3CA8736238DA /* Debug */,
-				EAB3BC850DD8D64C4D64A9A44A689775 /* Release */,
+				C2E9CF0C3F5D10FEC60827969048A1DD /* Debug */,
+				5F05F5F042E8A7C89010DC2D7B79DD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
